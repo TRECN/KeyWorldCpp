@@ -7,6 +7,7 @@ int sum(int *a,int n){
         sum+=a[i];
     return sum;
 }
+
 int main(){
     int t,n;
     cin>>t;
