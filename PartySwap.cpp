@@ -12,7 +12,9 @@ int main(){
         }
         int i=0;
         while(i<n-1){
-            if(abs((a[i]%2))!=abs((a[i+1]%2))){
+            int j=abs(a[i]%2);
+            int l=abs(a[i+1]%2);
+            if(j!=l){
                 int t=a[i];
                 a[i]=a[i+1];
                 a[i+1]=t;
@@ -23,7 +25,7 @@ int main(){
         for(int k=0;k<n;k++){
             cout<<a[k]<<" ";
         }
-        cout<<endl;
+       
     }
     return 0;
 }
