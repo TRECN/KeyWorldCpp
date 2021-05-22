@@ -4,6 +4,7 @@ using namespace std;
 int main(){
     int t,n;
     cin>>t;
+    
     while(t--){
         cin>>n;
         int a[n];
@@ -13,7 +14,7 @@ int main(){
         int i=0;
         while(i<n-1){
             int j=abs(a[i]%2);
-            
+
             int l=abs(a[i+1]%2);
             if(j!=l){
                 int t=a[i];
