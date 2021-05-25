@@ -10,20 +10,20 @@ int main(){
         for(int k=0;k<n;k++){
             cin>>a[k];
         }
-        for(int i=1;i<n;i++){
-            int j=abs(a[i]%2);
-            int l=abs(a[i-1]%2);
+        for(int i=0;i<n-1;i++){
+            int j=a[i]%2;
+            int l=a[i+1]%2;
             if(j!=l){
-                int t=a[i];
+                int p=a[i];
                 a[i]=a[i+1];
-                a[i+1]=t;
+                a[i+1]=p;
                 
             }
         }
         for(int k=0;k<n;k++){
             cout<<a[k]<<" ";
         }
-       
+        cout<<endl;
     }
     return 0;
 }
