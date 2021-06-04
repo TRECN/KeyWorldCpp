@@ -14,7 +14,7 @@ int main(){
         while(D--){ 
             if(i==d){
                 j++;
-                =P+(j*Q);
+                p1=P+(j*Q);
                 i=0;
             } 
             m=m+p1;
