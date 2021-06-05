@@ -1,25 +1,27 @@
+/*
+3
+2 1 1 1
+3 2 1 1
+5 2 1 2
+*/
 #include <bits/stdc++.h>
 using namespace std;
 int main(){
-    int t,D,d,P,p1,Q,i,j,m;
+    int t,D,d,P,Q,j,m,r;
     cin>>t;
     while(t--){
         
         cin>>D>>d>>P>>Q;
-        p1=P;
+        r=P;
         m=0;
-        i=0;
         j=0;
 
         while(D--){ 
-            if(i==d){
+            if(D%d==0){
+                r=P+(j*Q);
                 j++;
-                p1=P+(j*Q);
-                i=0;
             } 
-            m=m+p1;
-            i++;
-            
+            m=m+r;   
         }
 
         cout<<m<<endl;
