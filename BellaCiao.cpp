@@ -7,22 +7,22 @@
 #include <bits/stdc++.h>
 using namespace std;
 int main(){
-    int t,D,d,P,Q,j,m,r;
+    long long t,D,d,P,Q;
     cin>>t;
     while(t--){
         
         cin>>D>>d>>P>>Q;
-        r=P;
-        m=0;
-        j=0;
-
-        while(D--){ 
-            if(D%d==0){
-                r=P+(j*Q);
-                j++;
-            } 
-            m=m+r;   
+        long long n=D/d;
+        long long m=0;
+        if(n%2==0){
+            m+=d*(n/2*(2*P+(n-1)*Q));
+           
         }
+        else {
+            m+=d*(n*(P+(n-1)/2)*Q);
+            
+        }
+        m+=(D%d)*(P+n*Q);
 
         cout<<m<<endl;
         
