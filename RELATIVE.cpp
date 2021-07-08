@@ -8,7 +8,6 @@ int main(){
         cin>>g>>c;
         h=(c*c)/(2*g);
         cout<<h<<endl;
-
     }
     return 0;
 }
