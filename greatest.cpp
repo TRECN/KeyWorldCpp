@@ -2,10 +2,12 @@
 using namespace std;
 int main(){
     cout<<"enter two numbers"<<endl;
-    int a,b,c;
+    int a,b;
     cin>>a>>b;
-    c=a;
-    a=b;
-    b=c;
-    cout<<"swaped element"<<endl<<a<<endl<<b;
+    if(a>b)
+        cout<<a<<" is greatest"<<endl;
+    else
+        cout<<b<<" is greatest"<<endl;
+    
+    return 0;
 }
