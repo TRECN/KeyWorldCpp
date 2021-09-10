@@ -8,4 +8,6 @@ int main(){
        a=b;
        b=c;
        cout<<"swaped element"<<endl<<a<<endl<<b;
+    
+    return 0;
 }
