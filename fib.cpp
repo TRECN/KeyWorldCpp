@@ -5,5 +5,8 @@ int main(){
     int n;
     cout<<"enter the number of elements in fibonacci series: ";
     cin>>n;
+    int a[n];
+    a[0]=0;
+    a[1]=1;
     return 0;
 }
