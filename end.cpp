@@ -1,9 +1,9 @@
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
-    int n;
-    cout<<"enter ";
-    int a[n+1];
+    int ub;
+    cout<<"enter the number of element in the array";
+    int a[ub+1];
     for(int i=0;i<n;i++){
         cin<<[]
     }
