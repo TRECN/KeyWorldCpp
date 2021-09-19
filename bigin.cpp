@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
-    int n,ub,data;
+    int n,ub,data,lb=0;
     cout<<"enter the size of array: "<<endl;
     cin>>n;
     int a[n];
@@ -17,8 +17,12 @@ int main(){
         int k=ub;
         cout<<"Enter the data to insert:";
         cin>>data;
+        while(k>=lb){
+            a[k+1]=a[k];
+            k++;
+        }
         ub=ub+1;
-        a[ub]=data;
+        a[lb]=data;
     }
     cout<<"array after insertion: ";
     for(int i=0;i<=ub;i++){
