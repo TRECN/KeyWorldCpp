@@ -11,6 +11,7 @@ int main(){
         cout<<"ourflow!!";
     else{
         for(int i=0;i<ub;i++){
+            
             cin>>a[i];
         }
         cout<<"Enter the data to insert:";
