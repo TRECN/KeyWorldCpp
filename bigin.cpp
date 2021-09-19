@@ -17,14 +17,15 @@ int main(){
         int k=ub;
         cout<<"Enter the data to insert:";
         cin>>data;
+        ub=ub+1;
         while(k>=lb){
             a[k+1]=a[k];
             k--;
         }
-        
+
         a[lb]=data;
     }
-    cout<<"array after insertion: ";
+    cout<<"array after insertion: "<<endl;
     for(int i=0;i<=ub;i++){
         cout<<a[i]<<endl;
     }
