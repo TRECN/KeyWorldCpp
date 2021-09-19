@@ -10,8 +10,7 @@ int main(){
     if(ub==n)
         cout<<"ourflow!!";
     else{
-        for(int i=0;i<ub;i++){
-            
+        for(int i=0;i<ub;i++){   
             cin>>a[i];
         }
         cout<<"Enter the data to insert:";
