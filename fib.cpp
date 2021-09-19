@@ -1,4 +1,4 @@
-//write a program to generate n number of terms of fibonacci series using arry
+//write a program to generate n number of terms of fibonacci series using arrqay
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
