@@ -7,18 +7,8 @@ int main(){
     for(int i=0;i<n;i++){
         cin<<[]
     }
-    
-
-    
-
     int ud=n;
     cout<<"enter the element to insert: ";
     n++;
-
-
-    
-
-
-
     return 0;
 }
