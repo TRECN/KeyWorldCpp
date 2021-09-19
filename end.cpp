@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
-    int n,ub;
+    int n,ub,data;
     cout<<"enter the size of array";
     cin>>n;
     int a[n];
@@ -12,6 +12,15 @@ int main(){
         cin<<a[ub];
     }
 
+    if(ub==n)
+        cout<<"ourflow!!";
+    else{
+        
+        cout<<"Enter the data to insert:";
+        cin>>data;
+        ub+=1;
+        a[ub]=data;
+    }
     int ud=n;
     cout<<"enter the element to insert: ";
     n++;
