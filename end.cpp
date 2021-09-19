@@ -4,6 +4,8 @@ int main(){
     int a[]={1,2,3,4,45,12,6,12,5,10};
     
     int n=10;
+
+    cout<<"enter the element to insert: ";
     
 
     for(int i=0;i<5;i++){
