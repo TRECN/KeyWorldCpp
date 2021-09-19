@@ -2,16 +2,16 @@
 using namespace std;
 int main(){
     int n,ub,data;
-    cout<<"enter the size of array";
+    cout<<"enter the size of array: "<<endl;
     cin>>n;
     int a[n];
-    cout<<"enter the elements you want to enter";
+    cout<<"enter the elements you want to enter: "<<endl;
     cin>>ub;
     if(ub==n)
         cout<<"ourflow!!";
     else{
         for(int i=0;i<ub;i++){
-            cin<<a[i];
+            cin>>a[i];
         }
         cout<<"Enter the data to insert:";
         cin>>data;
