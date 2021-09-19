@@ -1,10 +1,10 @@
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
-    int ub;
-    cout<<"enter the number of elements you want to enter: ";
-    cin>>ub;
-    
-
+    int a[]={1,2,3,4};
+    a[4]=6;
+    for(int i=0;i<5;i++){
+        cout<<a[i];
+    }
     return 0;
 }
