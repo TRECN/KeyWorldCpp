@@ -19,9 +19,9 @@ int main(){
         cin>>data;
         while(k>=lb){
             a[k+1]=a[k];
-            k++;
+            k--;
         }
-        ub=ub+1;
+        
         a[lb]=data;
     }
     cout<<"array after insertion: ";
