@@ -11,7 +11,8 @@ int main(){
         cout<<"ourflow!!";
     else{
         for(int i=0;i<ub;i++){
-        cin<<a[ub];
+            cin<<a[i];
+        }
         cout<<"Enter the data to insert:";
         cin>>data;
         ub+=1;
@@ -19,7 +20,7 @@ int main(){
     }
     cout<<"array after insertion: ";
     for(int i=0;i<ub;i++){
-        cout<<
+        cout<<a[i];
     }
     return 0;
 }
