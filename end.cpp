@@ -15,7 +15,6 @@ int main(){
         }
         cout<<"Enter the data to insert:";
         cin>>data;
-        ub+=1;
         a[ub]=data;
     }
     cout<<"array after insertion: ";
