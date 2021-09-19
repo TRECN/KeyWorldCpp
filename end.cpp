@@ -19,8 +19,8 @@ int main(){
         a[ub]=data;
     }
     cout<<"array after insertion: ";
-    for(int i=0;i<ub;i++){
-        cout<<a[i];
+    for(int i=0;i<=ub;i++){
+        cout<<a[i]<<endl;
     }
     return 0;
 }
