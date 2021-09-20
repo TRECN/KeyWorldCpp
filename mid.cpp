@@ -8,15 +8,16 @@ int main(){
     int a[n];
     cout<<"enter the elements you want to enter: "<<endl;
     cin>>ub;
-    ub=ub-1;
+
     if(ub==n)
         cout<<"ourflow!!";
     else{
+            ub=ub-1;
         for(int i=0;i<=ub;i++){   
             cin>>a[i];
         }
         int k=ub;
-        cout<<"enter the position at whichyou want to insert: ";
+        cout<<"enter the position at which you want to insert: ";
         cin>>pos;
         cout<<"Enter the data to insert:";
         cin>>data;
@@ -27,10 +28,11 @@ int main(){
         }
 
         a[pos]=data;
-    }
-    cout<<"array after insertion: "<<endl;
+        cout<<"array after insertion: "<<endl;
     for(int i=0;i<=ub;i++){
         cout<<a[i]<<endl;
     }
+    }
+    
     return 0;
 }
