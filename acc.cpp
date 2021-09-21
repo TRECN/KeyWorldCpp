@@ -19,6 +19,12 @@ class Student {
         
 };
 int main(){
-    Student obj("Rishabh",18,"CSE");
+    string name,branch;
+    int age;
+    cout<<"enter student name, age, branch: "<<endl;
+    cin>>name;
+    cin>>age;
+    cin>>branch;
+    Student obj(name,age,branch);
     obj.showData();
 }
