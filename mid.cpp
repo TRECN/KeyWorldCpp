@@ -29,9 +29,9 @@ int main(){
 
         a[pos]=data;
         cout<<"array after insertion: "<<endl;
-    for(int i=0;i<=ub;i++){
-        cout<<a[i]<<endl;
-    }
+        for(int i=0;i<=ub;i++){
+            cout<<a[i]<<endl;
+        }
     }
     
     return 0;
