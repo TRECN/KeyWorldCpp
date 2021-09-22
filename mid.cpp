@@ -9,7 +9,7 @@ int main(){
     cout<<"enter the elements you want to enter: "<<endl;
     cin>>ub;
 
-    if(ub==n)
+    if(ub>=n)
         cout<<"ourflow!!";
     else{
             ub=ub-1;
