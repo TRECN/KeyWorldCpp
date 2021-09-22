@@ -8,6 +8,7 @@ int main(){
     int a[n];
     cout<<"enter the elements you want to enter: "<<endl;
     cin>>ub;
+    cout<<"enter elements: ";
     ub=ub-1;
     if(ub==n)
         cout<<"ourflow!!";
