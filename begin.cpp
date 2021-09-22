@@ -10,7 +10,7 @@ int main(){
     cin>>ub;
     cout<<"enter elements: ";
     ub=ub-1;
-    if(ub==n)
+    if(ub>=n)
         cout<<"ourflow!!";
     else{
         for(int i=0;i<=ub;i++){   
