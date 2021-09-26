@@ -15,7 +15,7 @@ int main(){
         for(int i=0;i<=ub;i++){   
             cin>>a[i];
         }
-        a[ub]=0;
+        a[ub]=NULL;
         ub=ub-1;
     }
     cout<<"array after insertion: ";
