@@ -27,5 +27,9 @@ int main(){
         cin>>n>>name;
         obj[i].getValue(n,name);
     }
+    for(int i=0;i<a;i++){
+        cout<<"car details"<<endl;
+        obj[i].printValue();
+    }
     return 0;
 }
