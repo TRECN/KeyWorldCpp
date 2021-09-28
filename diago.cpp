@@ -17,12 +17,10 @@ int main(){
             }
         }
     }
-    for (int i=0;i<m;i++){
-        for(int j=n-1;j>=n;j--){
-                ld+=a[i][j];
-        }
+    for (int i=0,j=n-1;i<m;i++,j--){
+        ld+=a[i][j];
     }
-    cout<<"sum: "<<ud<<endl;
-    cout<<"sum: "<<ld;
+    cout<<"sum of ud elements : "<<ud<<endl;
+    cout<<"sum of ld elements: "<<ld;
 
 }
