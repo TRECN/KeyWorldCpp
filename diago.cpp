@@ -22,6 +22,7 @@ int main(){
                 ld+=a[i][j];
         }
     }
-    cout<<"sum: "<<ud;
+    cout<<"sum: "<<ud<<endl;
+    cout<<"sum: "<<ld;
 
 }
