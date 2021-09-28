@@ -1,0 +1,16 @@
+{
+    "settings": {
+        "C_Cpp.errorSquiggles": "Disabled",
+        "files.associations": {
+            "iostream": "cpp",
+            "cstdlib": "cpp",
+            "ostream": "cpp",
+            "xstring": "cpp"
+        }
+    },
+    "folders": [
+        {
+            "path": "."
+        }
+    ]
+}
