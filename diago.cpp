@@ -4,9 +4,6 @@
 1  2  3  4
 1  2  3  4
 */
-
-
-
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
@@ -26,6 +23,7 @@ int main(){
             ud+=a[i][j];
         }
         n1--;
+
     }
     for(int i=m-1,k=0;i>=0;i--,k++){
         for(int j=n-1; j > k; j--){
