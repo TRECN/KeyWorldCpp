@@ -17,7 +17,15 @@ void push(int *arr,int *top,int n){
     }
 }
 
-
+void pop(int *arr,int *top,int n){
+    int data;
+    if(*top<0)
+        cout<<"underflow!!"<<endl;
+    else{
+        arr[*top]=NULL;
+        *top=*top-1;
+    }
+}
 
 void show(int *arr,int *top,int n){
     for(int i=0;i<=*top;i++){
