@@ -7,6 +7,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
+    
     int m,n,ud=0,ld=0;
     cout<<"enter the no. of rows and column: "<<endl;
     cin>>m>>n;
