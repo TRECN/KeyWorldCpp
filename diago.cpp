@@ -13,11 +13,7 @@ int main(){
     cout<<"enter the elements of the array: "<<endl;
     int a[m][n];
     int n1=n;
-    for (int i=0;i<m;i++){
-        for(int j=0;j<n;j++){
-            cin>>a[i][j];
-        }
-    }
+    
     for (int i=0;i<m;i++){
         for(int j=0;j<n1-1;j++){
             ud+=a[i][j];
