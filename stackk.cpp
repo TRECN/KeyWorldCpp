@@ -55,7 +55,7 @@ int main(){
             break;
         
         default:
-        cout<<"wrong choice!! enter again";
+        cout<<"wrong choice!! enter choice again: "<<endl;
             break;
         }
     }
