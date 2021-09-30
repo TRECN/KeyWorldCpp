@@ -8,7 +8,9 @@ int main(){
         int c=0;
         k--;
         int a[n];
-        
+        for(int i=0;i<n;i++){
+            cin>>a[i];
+        }
         int f = sizeof(a) / sizeof(a[0]);
         sort(a, a + f, greater<int>());
         for(int i=0;i<n;i++){
