@@ -18,9 +18,3 @@ void palind_Rev_sum(int a){
     else
         printf("%d is not palindrome.",a);
 }
-int main(){
-    int a;
-    printf("enter any no: \n");
-    scanf("%d",&a);
-    palind_Rev_sum(a);
-}
