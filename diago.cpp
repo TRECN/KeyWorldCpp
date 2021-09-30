@@ -26,11 +26,7 @@ int main(){
         n1--;
 
     }
-    for(int i=m-1,k=0;i>=0;i--,k++){
-        for(int j=n-1; j > k; j--){
-            ld+=a[i][j];
-        }
-    }
+
 
     cout<<"sum of ud elements : "<<ud<<endl;
     cout<<"sum of ld elements : "<<ld<<endl;
