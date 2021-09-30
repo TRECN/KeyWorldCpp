@@ -10,7 +10,13 @@ void palind_Rev_sum(int a){
         sum+=r;
         n=n/10;
     }
-    
+    printf("sum: %d\n",sum);
+    printf("reverse: %d\n",s);
+    if(s==a){
+        printf("%d is palindrome.",a);
+    }
+    else
+        printf("%d is not palindrome.",a);
 }
 int main(){
     int a;
