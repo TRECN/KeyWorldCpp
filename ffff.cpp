@@ -12,7 +12,8 @@ int main()
 	cout<<"enter the elements of array2:"<<endl;
 	cin>>t;
 
-	
+	i=lbA;
+	k=lbB;
 	for(i=0;i<s;i++)
 	while(i<=ubA){
        c[k]=a[i];
