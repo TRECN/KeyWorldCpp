@@ -12,7 +12,10 @@ int main(){
             count=3;
         }
         else{
-            
+            if((d-a+b+c)<0){
+                c++;
+            }
+
         }
         cout<<count;
         
