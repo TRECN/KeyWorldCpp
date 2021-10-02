@@ -14,6 +14,9 @@ int main(){
         else
         if(s<=d*2)
             count=2;
+        else
+        if(s<=3*d)
+            count=3;
         cout<<count;
         
         
