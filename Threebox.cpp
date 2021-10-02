@@ -5,9 +5,18 @@ int main(){
     cin>>t;
     while (t--)
     {   
-        int count;
+        int count=1;
         int a,b,c,d;
-        
+        int x=d;
+        x=x-a;
+        if(x>(b+c)){
+            x-=b;
+            if(x>c)
+                count=1;
+        }
+        else{
+
+        }
         
         
     }
