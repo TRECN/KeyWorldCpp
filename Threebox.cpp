@@ -5,18 +5,13 @@ int main(){
     cin>>t;
     while (t--)
     {   
-        int count=1;
+        int count;
         int a,b,c,d;
         cin>>a>>b>>c>>d;
-        if(a==b&&b==c&&c==d){
+        if(a==d){
             count=3;
         }
-        else{
-            if((d-a+b+c)<0){
-                c++;
-            }
-
-        }
+        if()
         cout<<count;
         
         
