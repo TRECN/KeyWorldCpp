@@ -13,8 +13,11 @@ int main(){
             x-=b;
             if(x>c)
                 count=1;
+            else
+                count++;
         }
         else{
+
 
         }
         
