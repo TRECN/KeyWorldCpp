@@ -8,8 +8,11 @@ int main(){
         int count=1;
         int a,b,c,d;
         cin>>a>>b>>c>>d;
-        if((a+b+c)==3*d){
+        if(a==b&&b==c&&c==d){
             count=3;
+        }
+        else{
+            
         }
         cout<<count;
         
