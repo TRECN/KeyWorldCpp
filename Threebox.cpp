@@ -12,7 +12,7 @@ int main(){
             count=3
         }
         if((a+b+c)<=d){
-            c=1;
+            count=1;
         }
         if((a+b)<=d)
         
