@@ -8,13 +8,15 @@ int main(){
         int count=1;
         int a,b,c,d;
         cin>>a>>b>>c>>d;
-        if((a==b==c==d){
-            count=3
+        if(a==b==c==d){
+            count=3;
         }
         if((a+b+c)<=d){
             count=1;
         }
-        if((a+b)<=d)
+        if((a+b)<=d){
+            count=2;
+        }
         
         
         
