@@ -11,9 +11,10 @@ int main(){
         if(a==d){
             count=3;
         }
-        else
-        if(a+b+c<d){
-
+        else{
+            if((a+b+c)<d){
+                count=1;
+            }
         }
         cout<<count;
         
