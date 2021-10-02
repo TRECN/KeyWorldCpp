@@ -17,7 +17,7 @@ int main(){
         else
         if(s<=3*d)
             count=3;
-        cout<<count;
+        cout<<count<<endl;
         
         
     }
