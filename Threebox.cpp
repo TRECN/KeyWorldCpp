@@ -5,9 +5,8 @@ int main(){
     cin>>t;
     while (t--)
     {
-        int a[3],d;
-        for(int i=0;i<3;i++)cin>>a[i];
-        cin>>d;
+        int a,b,c,d;
+        
         
         
     }
