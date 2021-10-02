@@ -6,9 +6,7 @@ int main(){
     cout<<"enter the length of array: ";
     cin>>n;
     int a[n];
-    cout<<"enter the elements: ";
-    for(i=0;i<n;i++)
-        cin>>a[i];
+    
 
     cout<<"enter the element to be searched: ";
     cin>>k;
