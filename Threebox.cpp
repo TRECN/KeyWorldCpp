@@ -11,13 +11,7 @@ int main(){
         if(a==b==c==d){
             count=3;
         }
-        if((a+b+c)<=d){
-            count=1;
-        }
-        if((a+b)<=d){
-            count=2;
-        }
-        
+        cout<<count;
         
         
     }
