@@ -1,5 +1,11 @@
 #include<bits/stdc++.h>
 using namespace std;
+class Solution{
+    public:
+    int getSum(int a[],int n){
+        
+    }
+};
 int main(){
     int t;
     cin>>t;
