@@ -11,13 +11,11 @@ int main(){
         if(a==d){
             count=3;
         }
-        else{
-            if((a+b+c)<d){
-                count=1;
-            }
-            if((d-(a+b+c)<0&&(a+b)<d)
-                count=2;
-        }
+        if((a+b+c)<d)
+            count=1;
+        if((d-(a+b+c)<0&&(a+b)<d)
+            count=2;
+    
         cout<<count;
         
         
