@@ -15,6 +15,8 @@ int main(){
             if((a+b+c)<d){
                 count=1;
             }
+            if((d-(a+b+c)<0&&(a+b)<d)
+                count=2;
         }
         cout<<count;
         
