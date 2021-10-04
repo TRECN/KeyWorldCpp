@@ -1,3 +1,4 @@
+//multilevel
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -17,7 +18,7 @@ class detail:public student{
         
 };
 
-class display:protected detail{
+class display:private detail{
     public:
         display(){
             showdetail();
