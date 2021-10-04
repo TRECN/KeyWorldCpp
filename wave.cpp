@@ -5,17 +5,18 @@ int main(){
     int n;
     cin>>n;
         int a[n];
+        int l=1;
         for(int k=0;k<n;k++){
             cin>>a[k];
         }
-        for(int i=0;i<n-1;i++){
-            int j=a[i]%2;
-            int l=a[i+1]%2;
-            if(j!=l){
-                int p=a[i];
-                a[i]=a[i+1];
-                a[i+1]=p;
-            }
+        if(n%2!=0){
+            l=2;
+        }
+        for(int i=0;i<n-l;i+=2){
+            a[i]=a[i]+a[i+1];
+            a[i+1]=a[i]-a[i+1];
+            a[i]=a[i]-a[i+1];
+            
         }
         for(int k=0;k<n;k++){
             cout<<a[k]<<" ";
