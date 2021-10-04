@@ -1,3 +1,4 @@
+//multiple inheritance
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -9,13 +10,13 @@ class student{
 };
 
 class detail{
-    public:
+    protected:
         void showdetail(){
             cout<<"detail class inherited."<<endl;
         }       
 };
 
-class display:protected detail,public student{
+class display:private student,public detail{
     public:
         display(){
             showdetail();
