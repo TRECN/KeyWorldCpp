@@ -2,20 +2,13 @@
 using namespace std;
 
 void subar(int n){
-    int s=1,e=n,r=0,bi=1,count=0,max_count=0;
+    int s=1,e=n,r=0,bi=1,count=0,bii=0;
     while(s<=e){
         r=s;
-        bi=r;
-        count=0;
         while(r<=e){
-            bi=bi&r;
+            cout<<r;
             r++;
-            count++;
         }
-        if(bi<=0)
-            count=0;
-        else    
-            max_count=count;
         if(s==e){
             s++;
             e=n;
@@ -23,9 +16,8 @@ void subar(int n){
         else{
             e--;
         }
-        
+        cout<<endl;
     }
-    cout<<max_count;
     
 
 }
