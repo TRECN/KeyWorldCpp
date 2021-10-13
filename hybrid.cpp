@@ -28,7 +28,7 @@ class Account2:public Bank{
 
 };
 class show:public Account1,public Account2{
-    public:
+   
         
 };
 
