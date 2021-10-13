@@ -60,12 +60,14 @@ int main(){
     int rear=-1;
     int ch=1;
     while(ch>0){
+        if(front==-1&&rear==n-1){
+            rear=-1;
+        }
         cout<<"enter choice: 1. enqueue, 2. dequeue, 3. show, 0 to quit"<<endl;
         cin>>ch;
         switch (ch)
         {
-            case 0:
-            break;
+
         case 1:
             enqueue(q,n,&front,&rear);
             break;
@@ -75,7 +77,6 @@ int main(){
         case 3:
             show(q,&front,&rear);
             break;
-        
         default:
         cout<<"wrong choice!! enter choice again: "<<endl;
             break;
