@@ -1,25 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-void enqueue(int *q,int n,int *front, int *rear){
-    if(*rear==n-1)
-        cout<<"overflow"<<endl;
-    else{
-        cout<<"enter data: "<<endl;
-        int data;
-        cin>>data;
-        if(*front==-1){
-            *front+=1;
-            *rear+=1;
-            q[*rear]=data;
-        }
-        else{
-            *rear+=1;
-            q[*rear] = data;
-        }
-    }
-    //cout<<"front: "<<*front<<endl<<"rear: "<<*rear<<endl;
-}
+
 
 void dequeue(int *q,int n,int *front, int *rear){
     if(*front==-1)
