@@ -33,6 +33,7 @@ void dequeue(int *q,int n,int *front, int *rear){
             *front=*front+1;
         }
     }
+    
     // cout<<"front: "<<*front<<endl<<"rear: "<<*rear<<endl;
 }
 
