@@ -33,7 +33,7 @@ void dequeue(int *q,int n,int *front, int *rear){
             *front=*front+1;
         }
     }
-    
+
     // cout<<"front: "<<*front<<endl<<"rear: "<<*rear<<endl;
 }
 
@@ -47,6 +47,7 @@ void show(int *q,int *front, int *rear){
     else{
         cout<<"queue is empty";
     }
+    
     //cout<<"front: "<<*front<<endl<<"rear: "<<*rear<<endl;
     cout<<endl;
 
