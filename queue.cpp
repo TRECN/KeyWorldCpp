@@ -60,7 +60,6 @@ int main(){
     int q[n];
     int front=-1;
     int rear=-1;
-    int ch=1;
     while(ch>0){
         if(front==-1&&rear==n-1){
             rear=-1;
