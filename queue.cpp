@@ -21,21 +21,7 @@ void enqueue(int *q,int n,int *front, int *rear){
     //cout<<"front: "<<*front<<endl<<"rear: "<<*rear<<endl;
 }
 
-void dequeue(int *q,int n,int *front, int *rear){
-    if(*front==-1)
-        cout<<"underflow!!"<<endl;
-    else{
-        if(*front==*rear){
-            q[*front]=NULL;
-            *front=-1;
-        }else{
-            q[*front]=NULL;
-            *front=*front+1;
-        }
-    }
 
-    // cout<<"front: "<<*front<<endl<<"rear: "<<*rear<<endl;
-}
 
 void show(int *q,int *front, int *rear){
     if(*front!=-1){
