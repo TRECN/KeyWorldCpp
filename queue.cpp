@@ -47,7 +47,7 @@ void show(int *q,int *front, int *rear){
     else{
         cout<<"queue is empty";
     }
-    
+
     //cout<<"front: "<<*front<<endl<<"rear: "<<*rear<<endl;
     cout<<endl;
 
@@ -58,9 +58,7 @@ int main(){
     cout<<"enter the size of queue: "<<endl;
     cin>>n;
     int q[n];
-    int front=-1;
-    int rear=-1;
-    int ch=1;
+    
     while(ch>0){
         if(front==-1&&rear==n-1){
             rear=-1;
