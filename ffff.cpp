@@ -14,7 +14,12 @@ int main()
 
 	i=lbA;
 	k=lbB;
-	
+	for(i=0;i<s;i++)
+	while(i<=ubA){
+       c[k]=a[i];
+	   k=k+1;
+	   i=i+1;
+	}
 	  
 	j=lbB;
 	for(j=0;j<t;j++)
