@@ -31,9 +31,3 @@ class show:public Account1,public Account2{
    
         
 };
-
-
-int main(){
-    show ob;
-    return 0;
-}
