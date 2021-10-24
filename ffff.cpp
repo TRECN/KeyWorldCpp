@@ -20,14 +20,7 @@ int main()
 	   k=k+1;
 	   i=i+1;
 	}
-	  
-	j=lbB;
-	for(j=0;j<t;j++)
-	while(j<=ubB){
-	    c[k]=b[j];
-	    j=j+1;
-	    k=k+1;
-	}
+	 
 	cout<<"after concatenation:"<<endl;
 	for(i=0;i<=s;i++)
 	{
