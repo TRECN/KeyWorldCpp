@@ -10,16 +10,7 @@ class A{
             b=b1;
         }
 
-        friend A operator+= (A j,A i){
-            A k;
-            k.a=j.a*i.a;
-            k.b=j.b*i.b;
-            return (k);
-        }
-
-        void show(){
-            cout<<a<<"\t"<<b<<endl;
-        }
+        
 };
 int main(){
     A o1(3,2);
