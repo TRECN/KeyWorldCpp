@@ -40,6 +40,9 @@ void traverse(){
     }
     printf("NULL\n----------\n\n");
 }
+
+
+
 void main(){
 
     create();
