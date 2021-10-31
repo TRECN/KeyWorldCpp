@@ -40,10 +40,18 @@ void main(){
     printf("linked list created");
     create();
     int ch=1;
+
+    printf("1. insert at end\n2. traverse")
+
     while(ch>0){
         switch(ch){
             case 1:
-                print("")
+                print("insert a node\n");
+                inend();
+            break;
+
+            case 2:
+                print("traversing...\n")
         }
     }
 }
