@@ -77,7 +77,7 @@ void main(){
             break; 
             case 2:
                 printf("creating a node...\n");
-                
+                inbeg();   
             break; 
             case 0:
                 break;
