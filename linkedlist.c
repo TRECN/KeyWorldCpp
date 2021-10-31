@@ -34,12 +34,13 @@ void inend(){
 }
 
 void inbeg(){
-    strut node *p;
+    struct node* p;
     p=(struct node*)malloc(sizeof(struct node));
     printf("enter data: ");
     scanf("%d",&p->data);
     p->next=start;
     start=p;
+    printf("---------\n\n");
 }
 
 void traverse(){
@@ -75,7 +76,7 @@ void main(){
                 printf("traversing...\n");
                 traverse();
             break; 
-            case 2:
+            case 3:
                 printf("creating a node...\n");
                 inbeg();   
             break; 
