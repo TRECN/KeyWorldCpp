@@ -16,6 +16,7 @@ void create(){
     scanf("%d",&p->data);
     start=p;
     p->next=NULL;
+    printf("---------\n\n");
 }
 void inend(){
     struct node *p,*q;
