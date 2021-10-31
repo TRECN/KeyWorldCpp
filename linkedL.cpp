@@ -40,6 +40,7 @@ int main(){
     node* head=NULL;
     insetAtTail(head,1);
     insetAtTail(head,2);
+    insetAtTail(head,2);
     display(head);
     return 0;
 }
