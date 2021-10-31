@@ -9,6 +9,7 @@ struct node{
 struct node* start;
 
 void create(){
+    printf("linked list created!!\nenter first element: ");
     char ch;
     struct node* p;
     p=(struct node*)malloc(sizeof(struct node));
@@ -37,23 +38,26 @@ void traverse(){
     }
 }
 void main(){
-    printf("linked list created");
+
     create();
     int ch=1;
 
-    printf("1. insert at end\n2. traverse\n0. to exit")
+    printf("1. insert at end\n2. traverse\n0. to exit");
 
     while(ch>0){
+        scanf("%d",&ch);
         switch(ch){
             case 1:
-                print("insert a node\n");
+                printf("insert a node\n");
                 inend();
             break;
 
             case 2:
-                print("traversing...\n")
+                printf("traversing...\n");
                 traverse();
-            break;  
+            break; 
+            default:
+                printf("wrong choice!!") 
         }
     }
 }
