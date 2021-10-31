@@ -27,6 +27,8 @@ void inend(){
     }
         q->next=NULL;
         p->next=q;
+
+    printf("---------\n\n");
         
 }
 void traverse(){
@@ -36,16 +38,19 @@ void traverse(){
         printf("%d->",p->data);
         p=p->next;
     }
+    printf("NULL\n\n\n");
 }
 void main(){
 
     create();
     int ch=1;
 
-    printf("1. insert at end\n2. traverse\n0. to exit");
 
     while(ch>0){
+        printf("1. insert at end\n2. traverse\n0. to exit\n");
+
         scanf("%d",&ch);
+        printf("---------\n\n");
         switch(ch){
             case 1:
                 printf("insert a node\n");
@@ -56,8 +61,10 @@ void main(){
                 printf("traversing...\n");
                 traverse();
             break; 
+            case 0:
+                break;
             default:
-                printf("wrong choice!!") 
+                printf("wrong choice!!\n");
         }
     }
 }
