@@ -67,7 +67,7 @@ void main(){
         printf("---------\n\n");
         switch(ch){
             case 1:
-                printf("insert a node\n");
+                printf("creating a node...\n");
                 inend();
             break;
 
