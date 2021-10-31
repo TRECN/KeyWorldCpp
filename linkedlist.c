@@ -14,7 +14,7 @@ void create(){
     start=p;
     do{
         q=(struct node*)malloc(sizeof(struct node));
-        scanf("%d",&    ->data);
+        scanf("%d",&q->data);
         p->next=q;
         p=q;
         printf("do you want to create node again(y/n)");
