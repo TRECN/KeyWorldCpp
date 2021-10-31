@@ -37,5 +37,13 @@ void traverse(){
     }
 }
 void main(){
+    printf("linked list created");
     create();
+    int ch=1;
+    while(ch>0){
+        switch(ch){
+            case 1:
+                print("")
+        }
+    }
 }
