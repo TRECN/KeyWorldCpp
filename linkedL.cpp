@@ -15,6 +15,9 @@ class node{
 
 void insetAtTail(node* &head,int val){
     node* n=new node(val);
+    if(head=NULL){
+        head=n;
+    }
     node* temp = head;
     while(temp->next!=NULL){
         temp=temp->next;
