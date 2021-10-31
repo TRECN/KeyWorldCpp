@@ -15,8 +15,9 @@ void create(){
     struct node* p;
     p=(struct node*)malloc(sizeof(struct node));
     scanf("%d",&p->data);
-    start=p;
     p->next=NULL;
+    start=p;
+    
     printf("---------\n\n");
 }
 
