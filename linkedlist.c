@@ -38,6 +38,4 @@ void traverse(){
 }
 void main(){
     create();
-    inend();
-    traverse();
 }
