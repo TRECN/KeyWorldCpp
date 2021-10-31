@@ -1,4 +1,6 @@
 #include<stdio.h>
+#include<conio.h>
+#include<stdlib.h>
 struct node{
     int data;
     struct node* next;
@@ -22,7 +24,15 @@ void create(){
     }while(ch=='y');
     p->next=NULL;
 }
-
+void traverse(){
+    struct node* p;
+    p=start;
+    while(p!=NULL){
+        printf("%d->",p->data);
+        p=p->next;
+    }
+}
 void main(){
-
+    create();
+    traverse();
 }
