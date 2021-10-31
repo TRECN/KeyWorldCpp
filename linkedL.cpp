@@ -29,7 +29,7 @@ void insetAtTail(node* &head,int val){
 void display(node* head){
     node* temp=head;
     while(temp!=NULL){
-        cout<<temp->data<<" ";
+        cout<<temp->data<<"->";
         temp=temp->next;
     }
     cout<<endl;
@@ -37,6 +37,9 @@ void display(node* head){
 
 int main(){
 
-
+    node* head=NULL;
+    insetAtTail(head,1);
+    insetAtTail(head,2);
+    display(head);
     return 0;
 }
