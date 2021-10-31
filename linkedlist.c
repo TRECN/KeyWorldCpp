@@ -52,6 +52,7 @@ void main(){
 
             case 2:
                 print("traversing...\n")
+                traverse();
         }
     }
 }
