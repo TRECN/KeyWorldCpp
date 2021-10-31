@@ -76,7 +76,7 @@ void main(){
                 traverse();
             break; 
             case 2:
-                printf("insert a node\n");
+                printf("creating a node...\n");
                 
             break; 
             case 0:
