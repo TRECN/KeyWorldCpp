@@ -10,7 +10,7 @@ struct node* start;
 
 void create(){
     printf("linked list created!!\nenter first element:\n");
-    char ch;
+    
     struct node* p;
     p=(struct node*)malloc(sizeof(struct node));
     scanf("%d",&p->data);
