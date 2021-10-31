@@ -17,6 +17,8 @@ void create(){
     p->next=NULL;
     printf("---------\n\n");
 }
+
+
 void inend(){
     struct node *p,*q;
     q=(struct node*)malloc(sizeof(struct node));
