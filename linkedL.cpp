@@ -13,6 +13,11 @@ class node{
 
 };
 
+void insetAtTail(node* &head,int val){
+    node* n=new node(val);
+    
+}
+
 int main(){
 
 
