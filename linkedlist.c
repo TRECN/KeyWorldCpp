@@ -16,6 +16,18 @@ void create(){
     start=p;
     p->next=NULL;
 }
+void inend(){
+    struct node *p,*q;
+    q=(struct node*)malloc(sizeof(struct node));
+    scanf("%d",&q->data);
+    p=start;
+    while(p->next!=NULL){
+        p=p->next;
+    }
+        q->next=NULL;
+        p->next=q;
+        
+}
 void traverse(){
     struct node* p;
     p=start;
@@ -26,5 +38,6 @@ void traverse(){
 }
 void main(){
     create();
+    inend();
     traverse();
 }
