@@ -41,7 +41,7 @@ void main(){
     create();
     int ch=1;
 
-    printf("1. insert at end\n2. traverse")
+    printf("1. insert at end\n2. traverse\n0. to exit")
 
     while(ch>0){
         switch(ch){
@@ -53,6 +53,7 @@ void main(){
             case 2:
                 print("traversing...\n")
                 traverse();
+            break;  
         }
     }
 }
