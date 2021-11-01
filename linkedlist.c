@@ -11,13 +11,21 @@ struct node* start;
 
 
 void create(){
+    char ch='y';
     printf("linked list created!!\nenter first element:\n");
-    struct node* p;
+    struct node* p,*q;
     p=(struct node*)malloc(sizeof(struct node));
     scanf("%d",&p->data);
-    p->next=NULL;
     start=p;
-    
+    do{
+        q=(struct node*)malloc(sizeof(struct node));
+        scanf("%d",&q->data);
+        p->next=q;
+        p=q;
+        printf("do you want to create node again(y/n)");
+        ch=getch();
+    }while(ch=='y');
+       p->next=NULL;
     printf("---------\n\n");
 }
 
