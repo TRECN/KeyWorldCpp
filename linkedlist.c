@@ -53,8 +53,10 @@ void givenVal(){
     int x;
     q=(struct node*)malloc(sizeof(struct node));
     p=start;
-    printf("enter the data after which you add a node: ");
-    scanf("%d",x);
+    printf("enter the data after which you want add a node: ");
+    scanf("%d",&x);
+    printf("enter the value: ");
+    scanf("%d",&q->data);
     while(p->data!=x){
         if(p->next==NULL&&p->data!=x){
             printf("node does not exist");
