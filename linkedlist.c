@@ -8,8 +8,6 @@ struct node{
 
 struct node* start;
 
-
-
 void create(){
     char ch='y';
     printf("linked list created!!\nenter first element:\n");
