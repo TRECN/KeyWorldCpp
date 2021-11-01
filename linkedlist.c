@@ -71,7 +71,15 @@ void givenVal(){
 }
 
 
-
+void traverse(){
+    struct node* p;
+    p=start;
+    while(p!=NULL){
+        printf("%d->",p->data);
+        p=p->next;
+    }
+    printf("NULL\n----------\n\n");
+}
 
 
 
