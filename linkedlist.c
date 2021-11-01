@@ -50,10 +50,19 @@ void inbeg(){
 
 void givenVal(){
     struct node* p,*q;
-    p=(struct node*)malloc(sizeof(struct node));
+    int x;
+    q=(struct node*)malloc(sizeof(struct node));
     p=start;
-    printf("")
-    while(p->data!=x)
+    printf("enter the data after which you add a node: ");
+    scanf("%d",x);
+    while(p->data!=x){
+        if(p->next==NULL&&p->data!=x){
+            printf("node does not exist");
+            break;
+        }
+    }
+
+    
 }
 
 
