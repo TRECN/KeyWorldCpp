@@ -82,3 +82,39 @@ void traverse(){
 }
 
 
+
+void main(){
+
+    create();
+    int ch=1;
+
+
+    while(ch>0){
+        printf("1. insert at end\n2. traverse\n3. insert in begin\n4. at given value\n0. to exit\n");
+        
+        scanf("%d",&ch);
+        printf("---------\n\n");
+        switch(ch){
+            case 1:
+                printf("creating a node...\n");
+                inend();
+            break;
+
+            case 2:
+                printf("traversing...\n");
+                traverse();
+            break; 
+            case 3:
+                printf("creating a node...\n");
+                inbeg();   
+            break; 
+            case 4:
+                givenVal();  
+            break; 
+            case 0:
+                break;
+            default:
+                printf("wrong choice!!\n");
+        }
+    }
+}
