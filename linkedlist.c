@@ -10,33 +10,7 @@ struct node* start;
 
 
 
-void create(){
-    char ch='y';
-    printf("linked list created!!\nenter first element:\n");
-    struct node* p,*q;
-    p=(struct node*)malloc(sizeof(struct node));
-    scanf("%d",&p->data);
-    p->next=NULL;
-    start=p;  
-    printf("---------\n\n");
-}
 
-
-void inend(){
-    struct node *p,*q;
-    q=(struct node*)malloc(sizeof(struct node));
-    printf("enter data: ");
-    scanf("%d",&q->data);
-    p=start;
-    while(p->next!=NULL){
-        p=p->next;
-    }
-        q->next=NULL;
-        p->next=q;
-
-    printf("---------\n\n");
-        
-}
 
 void inbeg(){
     struct node* p;
