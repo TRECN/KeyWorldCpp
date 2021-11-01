@@ -48,6 +48,15 @@ void inbeg(){
     printf("---------\n\n");
 }
 
+void givenVal(){
+    struct node* p,*q;
+    p=(struct node*)malloc(sizeof(struct node));
+    printf("enter data: ");
+    scanf("%d",&p->data);
+    p->next=start;
+}
+
+
 void traverse(){
     struct node* p;
     p=start;
