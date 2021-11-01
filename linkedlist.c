@@ -60,7 +60,10 @@ void givenVal(){
             printf("node does not exist");
             break;
         }
+        p=p->next;
     }
+    q->next=p->next;
+    p->next=q;
 
     
 }
