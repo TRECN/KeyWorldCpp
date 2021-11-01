@@ -22,17 +22,23 @@ void create(){
 }
 
 
-
-
-void inbeg(){
-    struct node* p;
-    p=(struct node*)malloc(sizeof(struct node));
+void inend(){
+    struct node *p,*q;
+    q=(struct node*)malloc(sizeof(struct node));
     printf("enter data: ");
-    scanf("%d",&p->data);
-    p->next=start;
-    start=p;
+    scanf("%d",&q->data);
+    p=start;
+    while(p->next!=NULL){
+        p=p->next;
+    }
+        q->next=NULL;
+        p->next=q;
+
     printf("---------\n\n");
+        
 }
+
+
 
 void givenVal(){
     struct node* p,*q;
