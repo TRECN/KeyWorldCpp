@@ -117,7 +117,14 @@ void delbeg(){
     free(p);
 }
 
-
+void delend(){
+    struct node *p;
+    p=start;
+    while(p->next!=NULL){
+        p=p->next;
+    }
+    free(p);
+}
 
 void main(){
 
@@ -126,7 +133,7 @@ void main(){
 
 
     while(ch>0){
-        printf("1. insert at end\n2. traverse\n3. insert in begin\n4. after given value\n5. before given value\n6. ascending insert\n7. delete at beg\n0. to exit\n");
+        printf("1. insert at end\n2. traverse\n3. insert in begin\n4. after given value\n5. before given value\n6. ascending insert\n7. delete at beg\n8. delete at end\n0. to exit\n");
         
         scanf("%d",&ch);               
         printf("---------\n\n");
@@ -155,6 +162,9 @@ void main(){
             break; 
             case 7:
                 delbeg();  
+            break; 
+            case 8:
+                delend();  
             break; 
             case 0:
                 break;
