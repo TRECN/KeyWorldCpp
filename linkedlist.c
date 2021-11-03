@@ -153,7 +153,7 @@ void main(){
             case 6:
                 acend();  
             break; 
-            case 6:
+            case 7:
                 delbeg();  
             break; 
             case 0:
