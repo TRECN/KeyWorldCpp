@@ -130,7 +130,17 @@ void delend(){
 }
 
 void delpos(){
+    struct node* p;
+    int x;
+    p=start;
+    printf("enter the data whose node you want to delete:");
+    scanf("%d",&x);
+    while(p->next->next!=x){
+        p=p->next;
+    }
+    p->next=p->next->next->next;
 
+    
 }
 
 void main(){
