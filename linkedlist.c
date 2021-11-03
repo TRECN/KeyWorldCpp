@@ -66,7 +66,7 @@ void givenVal(){
 
 
 void befgivenVal(){
-    struct node* p,*q,*i;
+    struct node* p,*q;
     int x;
     
     q=(struct node*)malloc(sizeof(struct node));
@@ -75,12 +75,11 @@ void befgivenVal(){
     scanf("%d",&x);
     printf("enter the value: ");
     scanf("%d",&q->data);
-    while(p->data!=x){
-        i=p;
+    while(p->next->data!=x){
         p=p->next;
     }
-    i->next=q;
-    q->next=p;
+    q->next=p->next;
+    p->next=q;
     printf("---------\n\n");
     
 }
