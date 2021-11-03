@@ -56,10 +56,6 @@ void givenVal(){
     printf("enter the value: ");
     scanf("%d",&q->data);
     while(p->data!=x){
-        if(p->next==NULL&&p->data!=x){
-            printf("node does not exist");
-            break;
-        }
         p=p->next;
     }
     q->next=p->next;
