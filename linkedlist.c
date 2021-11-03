@@ -139,9 +139,6 @@ void delpos(){
         p=p->next;
     }
     p->next=p->next->next->next;
-
-
-    
 }
 
 void main(){
