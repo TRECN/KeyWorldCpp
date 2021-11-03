@@ -153,7 +153,7 @@ void main(){
     while(ch>0){
         printf("1. insert at end\n2. traverse\n3. insert in begin
         \n4. after given value\n5. before given value\n6. ascending insert
-        \n7. delete at beg\n8. delete at end\n8. delete at end\n0. to exit\n");
+        \n7. delete at beg\n8. delete at end\n9. delete at end\n0. to exit\n");
         
         scanf("%d",&ch);               
         printf("---------\n\n");
