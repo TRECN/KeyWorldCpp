@@ -95,6 +95,10 @@ void traverse(){
     printf("NULL\n----------\n\n");
 }
 
+void acend(){
+    struct node* p, *q;
+}
+
 
 
 void main(){
