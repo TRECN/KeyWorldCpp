@@ -69,6 +69,27 @@ void givenVal(){
 }
 
 
+void befgivenVal(){
+    struct node* p,*q,*i;
+    int x;
+    
+    q=(struct node*)malloc(sizeof(struct node));
+    p=start;
+    printf("enter the data before which you want add a node: ");
+    scanf("%d",&x);
+    printf("enter the value: ");
+    scanf("%d",&q->data);
+    while(p->data!=x){
+        i=p;
+        p=p->next;
+    }
+    i->next=q;
+    q->next=p;
+    printf("---------\n\n");
+    
+}
+
+
 void traverse(){
     struct node* p;
     p=start;
@@ -108,6 +129,9 @@ void main(){
             break; 
             case 4:
                 givenVal();  
+            break; 
+            case 5:
+                befgivenVal();  
             break; 
             case 0:
                 break;
