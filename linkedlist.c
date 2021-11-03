@@ -110,6 +110,13 @@ void acend(){
 
 }
 
+void delbeg(){
+    struct node *p;
+    p=start;
+    start=p->next;
+    free(p);
+}
+
 
 
 void main(){
