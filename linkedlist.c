@@ -139,7 +139,7 @@ void delpos(){
         q=p;
         p=p->next;
     }
-    q->next=p.next;
+    q->next=p->next;
     free(p);
 
 }
