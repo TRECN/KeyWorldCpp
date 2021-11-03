@@ -99,7 +99,10 @@ void acend(){
     struct node* p, *q;
     q=(struct node*)malloc(sizeof(struct node));
     p=start;
-    
+    printf("enter the value: ");
+    scanf("%d",&q->data);
+    while()
+
 }
 
 
