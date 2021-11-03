@@ -9,7 +9,6 @@ struct node{
 struct node* start;
 
 void create(){
-    char ch='y';
     printf("linked list created!!\nenter first element:\n");
     struct node* p,*q;
     p=(struct node*)malloc(sizeof(struct node));
@@ -96,12 +95,18 @@ void traverse(){
 }
 
 void acend(){
-    struct node* p, *q;
+    struct node* p, *q,*i;
     q=(struct node*)malloc(sizeof(struct node));
     p=start;
     printf("enter the value: ");
     scanf("%d",&q->data);
-    while()
+    while(p->data<q->data){
+        i=p;
+        p=p->next;
+    }
+    i->next=q;
+    q->next=p;
+    
 
 }
 
@@ -116,7 +121,7 @@ void main(){
     while(ch>0){
         printf("1. insert at end\n2. traverse\n3. insert in begin\n4. after given value\n5. before given value\n0. to exit\n");
         
-        scanf("%d",&ch);
+        scanf("%d",&ch);               
         printf("---------\n\n");
         switch(ch){
             case 1:
@@ -137,6 +142,9 @@ void main(){
             break; 
             case 5:
                 befgivenVal();  
+            break; 
+            case 6:
+                acend();  
             break; 
             case 0:
                 break;
