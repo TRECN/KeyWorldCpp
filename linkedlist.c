@@ -153,6 +153,9 @@ void main(){
             case 6:
                 acend();  
             break; 
+            case 6:
+                delbeg();  
+            break; 
             case 0:
                 break;
             default:
