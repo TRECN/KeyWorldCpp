@@ -135,7 +135,7 @@ void delpos(){
     p=start;
     printf("enter the data whose node you want to delete:");
     scanf("%d",&x);
-    while(p->next->data!=x){
+    while(p->data!=x){
         q=p;
         p=p->next;
     }
