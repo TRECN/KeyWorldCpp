@@ -129,6 +129,10 @@ void delend(){
     
 }
 
+void delpos(){
+
+}
+
 void main(){
 
     create();
