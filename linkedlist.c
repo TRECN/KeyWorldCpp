@@ -29,7 +29,7 @@ void inend(){
         p=p->next;
     }
         q->next=NULL;
-        p->next=q;
+        
 
     printf("---------\n\n");
         
