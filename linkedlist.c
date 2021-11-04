@@ -85,7 +85,6 @@ void befgivenVal(){
 
 
 void traverse(){
-    struct node* p;
     p=start;
     while(p!=NULL){
         printf("%d->",p->data);
