@@ -79,6 +79,7 @@ void befgivenVal(){
     }
     q->next=p->next;
     p->next=q;
+    printf("---------\n\n");
     
 }
 
