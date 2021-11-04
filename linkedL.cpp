@@ -21,7 +21,6 @@ void insetAtTail(node* &head,int val){
     }
     node* temp = head;
     while(temp->next!=NULL){
-        temp=temp->next;
     }
     temp->next=n;
 }
