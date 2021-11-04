@@ -73,6 +73,7 @@ void befgivenVal(){
     printf("enter the data before which you want add a node: ");
     scanf("%d",&x);
     printf("enter the value: ");
+    scanf("%d",&q->data);
     while(p->next->data!=x){
         p=p->next;
     }
