@@ -91,6 +91,7 @@ void traverse(){
         printf("%d->",p->data);
         p=p->next;
     }
+    printf("NULL\n----------\n\n");
 }
 
 void acend(){
