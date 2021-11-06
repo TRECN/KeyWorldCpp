@@ -48,12 +48,12 @@ void Traverse()
         printf("Enter the data ,where you before insert\n");
         scanf("%d",&x);
         p = start;
-        while(p->data!=x)
+        while(p->next->data!=x)//yaha tha mistake
         {
             p= p->next;
         }
-        p->next = q->next;
-        p =q;
+        //iske baad tha mistake
+        q->next = p->next;
         p->next = q;
     }
     
