@@ -60,6 +60,7 @@ void Traverse()
     
 int main()
 {
+    printf("creating: ");
     create();
     Traverse();
     insertbfore();
