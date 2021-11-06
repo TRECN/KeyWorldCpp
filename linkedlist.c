@@ -8,7 +8,15 @@ struct node{
 
 struct node* start;
 
-
+void create(){
+    printf("linked list created!!\nenter first element:\n");
+    struct node* p,*q;
+    p=(struct node*)malloc(sizeof(struct node));
+    scanf("%d",&p->data);
+    p->next=NULL;
+    start=p;  
+    printf("---------\n\n");
+}
 
 
 void inend(){
