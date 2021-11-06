@@ -66,6 +66,7 @@ int main()
     Traverse();
     printf("insert bef");
     insertbfore();
+    printf("traversing");
     Traverse();
     return 0;
 
