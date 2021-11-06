@@ -62,6 +62,7 @@ int main()
 {
     printf("creating: ");
     create();
+    printf("traversing");
     Traverse();
     insertbfore();
     Traverse();
