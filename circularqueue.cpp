@@ -1,7 +1,9 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-void insertion(int *q,int n,int *front,int *rear)
+void insertion(int *q,int n,int *front,int *rear){
+    
+}
 
 
 int main(){
