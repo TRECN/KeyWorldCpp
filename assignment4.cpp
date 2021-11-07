@@ -64,9 +64,12 @@ int main(){
     int n;
     cout<<"enter the size for queue"<<endl;
     cin>>n;
-    char q[n];
-    int front=-1;
-    int rear=-1;
+    char q[6];
+    q[2]='A';
+    q[3]='C';
+    q[4]='D';
+    int front=2;
+    int rear=4;
     int ch=1;
     
 
