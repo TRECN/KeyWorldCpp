@@ -13,15 +13,16 @@ void insertion(char *q,int n,int *front,int *rear){
             *front=0;
             *rear=0;
         }
-        if(rear==n-1)
-            rear=0;
+        if(*rear==n-1)
+            *rear=0;
         else
             *rear=*rear+1;
 
-        q[rear]=data;
+        q[*rear]=data;
 
     }
 }
+
 
 
 int main(){
