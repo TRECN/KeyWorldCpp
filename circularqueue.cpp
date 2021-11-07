@@ -2,7 +2,7 @@
 using namespace std;
 
 void insertion(int *q,int n,int *front,int *rear){
-    
+    if((front==0&&rear==n-1)||)
 }
 
 
