@@ -2,12 +2,17 @@
 using namespace std;
 
 void insertion(char *q,int n,int *front,int *rear){
-    if((front==0&&rear==n-1)||(front==rear+1)){
+    if((*front==0&&*rear==n-1)||(*front==*rear+1)){
         cout<<"queue is overflow";
     }
     else{
         cout<<"enter data: "<<endl;
         char data;
+        cin>>data;
+        if(*front==-1){
+            *front=0;
+            rear=0;
+        }
 
     }
 }
