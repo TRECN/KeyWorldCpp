@@ -16,6 +16,8 @@ void insertion(char *q,int n,int *front,int *rear){
         else
             *rear=*rear+1;
 
+        q[rear]=data;
+
     }
 }
 
