@@ -1,14 +1,11 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-void insertion(char *q,int n,int *front,int *rear){
+void insertion(char *q,int n,int *front,int *rear,char data){
     if((*front==0&&*rear==n-1)||(*front==*rear+1)){
         cout<<"queue is overflow";
     }
     else{
-        cout<<"enter data: "<<endl;
-        char data;
-        cin>>data;
         if(*front==-1){
             *front=0;
             *rear=0;
@@ -61,16 +58,17 @@ void show(char *q,int n,int *front, int *rear){
 }
 
 int main(){
-    int n;
-    cout<<"enter the size for queue"<<endl;
-    cin>>n;
     char q[6];
     q[2]='A';
     q[3]='C';
     q[4]='D';
     int front=2;
     int rear=4;
-    int ch=1;
-    
+    insertion(q,6,&front,&rear,'F');
+    show(q,6,&front,&rear);
+    deletion(q,6,&front,&rear);
+    deletion(q,6,&front,&rear);
+
+    show(q,6,&front,&rear);
 
 }
