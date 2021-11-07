@@ -44,10 +44,10 @@ void deletion(char *q,int n,int *front,int *rear){
 
 }
 
-void show(char *q,int *front, int *rear){
+void show(char *q,int n,int *front, int *rear){
     if(*front!=-1){
         cout<<"queue: ";
-        for(int i=*front;i<=*rear;i++){
+        for(int i=0;i<=n;i++){
             cout<<q[i]<<" ";
         }
     }
@@ -82,7 +82,7 @@ int main(){
             deletion(q,n,&front,&rear);
             break;
         case 3:
-            show(q,&front,&rear);
+            show(q,n,&front,&rear);
             break;
         default:
         cout<<"wrong choice!! enter choice again: "<<endl;
