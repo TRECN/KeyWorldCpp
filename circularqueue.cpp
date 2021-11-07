@@ -55,7 +55,7 @@ void show(char *q,int n,int *front, int *rear){
         cout<<"queue is empty";
     }
 
-    cout<<"front: "<<*front<<endl<<"rear: "<<*rear<<endl;
+    cout<<endl<<"front: "<<*front<<endl<<"rear: "<<*rear<<endl;
     cout<<endl;
 
 }
