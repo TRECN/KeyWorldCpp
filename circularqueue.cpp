@@ -8,12 +8,12 @@ void insertion(char *q,int n,int *front,int *rear){
     else{
         cout<<"enter data: "<<endl;
         char data;
-        gets(data);
+        cin>>data;
         if(*front==-1){
             *front=0;
             *rear=0;
         }
-        if(*rear==n-1)
+        else if(*rear==n-1)
             *rear=0;
         else
             *rear=*rear+1;
@@ -32,7 +32,7 @@ void deletion(char *q,int n,int *front,int *rear){
             *front=-1;
             *rear=-1;
         }
-        if(*front==n-1){
+        else if(*front==n-1){
             q[*front]=NULL;
             *front=0;
         }
