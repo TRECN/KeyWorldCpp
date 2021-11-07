@@ -8,7 +8,7 @@ void insertion(char *q,int n,int *front,int *rear){
     else{
         cout<<"enter data: "<<endl;
         char data;
-        cin>>data;
+        gets(data);
         if(*front==-1){
             *front=0;
             *rear=0;
@@ -30,7 +30,7 @@ void deletion(char *q,int n,int *front,int *rear){
         if(*front==*rear){
             q[*front]=NULL;
             *front=-1;
-            *rear=-1'
+            *rear=-1;
         }
         if(*front==n-1){
             q[*front]=NULL;
@@ -44,7 +44,7 @@ void deletion(char *q,int n,int *front,int *rear){
 
 }
 
-void show(int *q,int *front, int *rear){
+void show(char *q,int *front, int *rear){
     if(*front!=-1){
         cout<<"queue: ";
         for(int i=*front;i<=*rear;i++){
@@ -55,7 +55,7 @@ void show(int *q,int *front, int *rear){
         cout<<"queue is empty";
     }
 
-    //cout<<"front: "<<*front<<endl<<"rear: "<<*rear<<endl;
+    cout<<"front: "<<*front<<endl<<"rear: "<<*rear<<endl;
     cout<<endl;
 
 }
@@ -69,19 +69,17 @@ int main(){
     int rear=-1;
     int ch=1;
     while(ch>0){
-        if(front==-1&&rear==n-1){
-            rear=-1;
-        }
         cout<<"enter choice: 1. enqueue, 2. dequeue, 3. show, 0 to quit"<<endl;
         cin>>ch;
         switch (ch)
         {
-
+        case 0:
+        break;
         case 1:
-            enqueue(q,n,&front,&rear);
+            insertion(q,n,&front,&rear);
             break;
         case 2:
-            dequeue(q,n,&front,&rear);
+            deletion(q,n,&front,&rear);
             break;
         case 3:
             show(q,&front,&rear);
