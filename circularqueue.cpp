@@ -11,8 +11,10 @@ void insertion(char *q,int n,int *front,int *rear){
         cin>>data;
         if(*front==-1){
             *front=0;
-            rear=0;
+            *rear=0;
         }
+        else
+            *rear=*rear+1;
 
     }
 }
