@@ -23,6 +23,10 @@ void insertion(char *q,int n,int *front,int *rear){
     }
 }
 
+void deletion(){
+
+}
+
 
 
 int main(){
