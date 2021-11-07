@@ -71,11 +71,12 @@ int main(){
     insertion(q,6,&front,&rear,'K');
     insertion(q,6,&front,&rear,'L');
     insertion(q,6,&front,&rear,'M');
-
     deletion(q,6,&front,&rear);
     deletion(q,6,&front,&rear);
     insertion(q,6,&front,&rear,'S');
-
+    deletion(q,6,&front,&rear);
+    insertion(q,6,&front,&rear,'R');
+    deletion(q,6,&front,&rear);
     show(q,6,&front,&rear);
 
 }
