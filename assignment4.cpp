@@ -68,6 +68,13 @@ int main(){
     show(q,6,&front,&rear);
     deletion(q,6,&front,&rear);
     deletion(q,6,&front,&rear);
+    insertion(q,6,&front,&rear,'K');
+    insertion(q,6,&front,&rear,'L');
+    insertion(q,6,&front,&rear,'M');
+
+    deletion(q,6,&front,&rear);
+    deletion(q,6,&front,&rear);
+    insertion(q,6,&front,&rear,'S');
 
     show(q,6,&front,&rear);
 
