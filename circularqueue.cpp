@@ -36,6 +36,10 @@ void deletion(char *q,int n,int *front,int *rear){
             q[*front]=NULL;
             *front=0;
         }
+        else{
+            q[*front]=NULL;
+            *front=*front+1;
+        }
     }
 
 }
