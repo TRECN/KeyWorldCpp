@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+void insertion(int *q,int n,int *front,int *rear)
 
 
 int main(){
@@ -11,4 +12,5 @@ int main(){
     int front=-1;
     int rear=-1;
     int ch=1;
+
 }
