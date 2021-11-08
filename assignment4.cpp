@@ -20,6 +20,8 @@ void insertion(char *q,int n,int *front,int *rear,char data){
     }
 }
 
+
+
 void deletion(char *q,int n,int *front,int *rear){
     if(*front==-1)
         cout<<"queue is underflow!!";
