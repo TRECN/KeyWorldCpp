@@ -38,12 +38,12 @@ void sorting(){
     while(p->next!=NULL){
         q=p->next;
         while(q->next!=NULL){
-        if(p->data>q->data){
-            t=p->data;
-            p->data=q->data;
-            q->data=t;
-        }
-        q=q->next;
+            if(p->data>q->data){
+                t=p->data;
+                p->data=q->data;
+                q->data=t;
+            }
+            q=q->next;
         }
         p=p->next;
     }    
