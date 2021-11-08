@@ -18,6 +18,18 @@ void create(){
     printf("---------\n\n");
 }
 
+void reverse(){
+    struct node* a=start;
+    struct node* b=NULL;
+    struct node* c;
+    while(a!=NULL){
+        c=a->next;
+        a->next=b;
+        b=a;
+        a=c;
+    }
+    start=b;
+}
 
 void inend(){
     struct node *p,*q;
@@ -187,6 +199,9 @@ void main(){
             break; 
             case 9:
                 delpos();  
+            break; 
+            case 10:
+                reverse();  
             break; 
             case 0:
                 break;
