@@ -5,12 +5,12 @@
 
 struct node{
     int *data;
-    
+    int *p=10;
 };
 
 
 
 
 void main(){
-
+    
 }
