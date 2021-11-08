@@ -31,6 +31,25 @@ void reverse(){
     start=b;
 }
 
+void sorting(){
+    struct node* p=start;
+    struct node* q;
+    int t;
+    while(p->next!=NULL){
+        q=p->next;
+        while(q->next!=NULL){
+        if(p->data>q->data){
+            t=p->data;
+            p->data=q->data;
+            q->data=t;
+        }
+        q=q->next;
+        }
+        p=p->next;
+    }    
+
+}
+
 void inend(){
     struct node *p,*q;
     q=(struct node*)malloc(sizeof(struct node));
@@ -202,6 +221,9 @@ void main(){
             break; 
             case 10:
                 reverse();  
+            break; 
+            case 11:
+                sorting();  
             break; 
             case 0:
                 break;
