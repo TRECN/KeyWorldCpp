@@ -32,7 +32,6 @@ int main(){
     o2.show();
     cout<<"---------"<<endl;
     o3.show();
-    obj.this.show
     
     return 0;
 }
