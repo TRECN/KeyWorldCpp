@@ -1,12 +1,20 @@
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
-    int a = 10,b=0;
+    int a,b;
+    cin>>a>>b;
     try{
-            a=a/;
-            cout<<a;
+        if(b==0)
+            throw b;
+        else if(a/b==0)
+            throw (float)a/b;
+        else
+            cout<<a/b;
     }
-    catch(exception e){
-        cout<<"denominator not be zero";
+    catch(int d){
+        cout<<"dividing by 0\n";
+    }
+    catch(float d){
+        cout<<d;
     }
 }
