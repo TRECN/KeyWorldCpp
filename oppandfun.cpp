@@ -2,7 +2,27 @@
 using namespace std;
 class A{
     
-    
+    public:
+        int a;
+        int b;
+        A(){}
+        A(int a1,int b1){
+            a=a1;
+            b=b1;
+        }
+
+        friend A operator+= (A j,A i){
+            A k;
+            k.a=j.a*i.a;
+            k.b=j.b*i.b;
+            return (k);
+        }
+        virtual void show(A a){
+            
+        }
+        void show(){
+            cout<<a<<"\t"<<b<<"\n";
+        }
 };
 class B : public A{
     public:
