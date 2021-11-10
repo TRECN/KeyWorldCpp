@@ -22,16 +22,7 @@ class A{
         }
 };
 int main(){
-    A o1(3,2);
-    A o2(2,2);
-    A o3;
-    o3 = o1 += o2;
-
-    o1.show();
-    cout<<"    X"<<endl;
-    o2.show();
-    cout<<"---------"<<endl;
-    o3.show();
+    
     
     return 0;
 }
