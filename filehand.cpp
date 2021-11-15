@@ -8,7 +8,7 @@ int main(){
     }
     else{
         cout<<"New file created"<<endl;
-    file<<"helloworld";
+    file<<"hello";
     
     file.close(); 
     }
