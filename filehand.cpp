@@ -7,8 +7,13 @@ int main(){
         cout<<"unable to create";
     }
     else{
-        cout<<"New file created";
-    file<<"hello world";
+        cout<<"New file created"<<endl;
+    file<<"helloworld";
+    
+    file.close(); 
+    }
+
+    file.open("text.txt",ios::in);
     if(!file){
         cout<<"no file present";
     }
@@ -19,8 +24,6 @@ int main(){
             cout<<ch;
         }
         
-    }
-    file.close(); 
     }
     return 0;
 }
