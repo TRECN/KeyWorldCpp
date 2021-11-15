@@ -9,6 +9,17 @@ int main(){
     else{
         cout<<"New file created";
     file<<"hello world";
+    if(!file){
+        cout<<"no file present";
+    }
+    else{
+        char ch;
+        while(!file.eof()){
+            file>>ch;
+            cout<<ch;
+        }
+        
+    }
     file.close(); 
     }
     return 0;
