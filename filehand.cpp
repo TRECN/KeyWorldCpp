@@ -22,6 +22,7 @@ int main(){
             file>>ch;
             cout<<ch;
         }
+        file.close();
         
     }
     return 0;
