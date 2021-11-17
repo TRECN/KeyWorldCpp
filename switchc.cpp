@@ -5,7 +5,12 @@ int main(){
     int n;
     cin>>n;
     switch(n){
-        
+        case 1:
+            cout<<"monday";
+        break;
+        case 2:
+            cout<<"tuesday";
+        break;
         case 3:
             cout<<"wednesday";
         break;
