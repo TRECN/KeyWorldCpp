@@ -17,7 +17,7 @@ int main(){
         cout<<"no file present";
     }
     else{
-        char ch;
+        char ch[50];
         while(!file.eof()){
             file>>ch;
             cout<<ch;
