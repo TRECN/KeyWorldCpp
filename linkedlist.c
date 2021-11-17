@@ -18,18 +18,7 @@ void create(){
     printf("---------\n\n");
 }
 
-void reverse(){
-    struct node* a=start;
-    struct node* b=NULL;
-    struct node* c;
-    while(a!=NULL){
-        c=a->next;
-        a->next=b;
-        b=a;
-        a=c;
-    }
-    start=b;
-}
+
 
 void sorting(){
     struct node* p=start;
