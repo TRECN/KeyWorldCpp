@@ -68,6 +68,7 @@ void inend(){
 
 void inbeg(){
     struct node* p;
+    p=(struct node*)malloc(sizeof(struct node));
     printf("enter data: ");
     scanf("%d",&p->data);
     p->next=start;
