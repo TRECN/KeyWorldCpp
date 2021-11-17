@@ -14,20 +14,7 @@ int main(){
         case 3:
             cout<<"wednesday";
         break;
-        case 4:
-            cout<<"thursday";
-        break;
-        case 5:
-            cout<<"friday";
-        break;
-        case 6:
-            cout<<"saturday";
-        break;
-        case 7:
-            cout<<"sunday";
-        break;
-        dafault:
-            cout<<"wrong choice!!";
+        
     }
     return 0;
 }
