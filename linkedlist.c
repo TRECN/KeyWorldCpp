@@ -171,7 +171,8 @@ void delpos(){
         p=p->next;
     }
     
-    
+    q->next=p->next;
+    free(p);
 
 }
 
