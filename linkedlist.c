@@ -148,17 +148,7 @@ void delbeg(){
     free(p);
 }
 
-void delend(){
-    struct node *p,*i;
-    p=start;
-    while(p->next->next!=NULL){
-        p=p->next;
-    }
-    i=p->next;
-    p->next=NULL;
-    free(i);
-    
-}
+
 
 void delpos(){
     struct node* p,*q;
