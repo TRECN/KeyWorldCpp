@@ -125,21 +125,7 @@ void traverse(){
     printf("NULL\n----------\n\n");
 }
 
-void acend(){
-    struct node* p, *q,*i;
-    q=(struct node*)malloc(sizeof(struct node));
-    p=start;
-    printf("enter the value: ");
-    scanf("%d",&q->data);
-    while(p->data<q->data){
-        i=p;
-        p=p->next;
-    }
-    i->next=q;
-    q->next=p;
-    
 
-}
 
 void delbeg(){
     struct node *p;
