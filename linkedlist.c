@@ -178,7 +178,9 @@ void delpos(){
 
 void main(){
 
-    
+    create();
+    int ch=1;
+
 
     while(ch>0){
         printf("1. insert at end\n2. traverse\n3. insert in begin\n4. after given value\n5. before given value\n6. ascending insert\n7. delete at beg\n8. delete at end\n9. delete at pos\n10. reverse\n11. sorting\n\n0. to exit\n");
