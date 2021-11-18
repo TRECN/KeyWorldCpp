@@ -14,7 +14,5 @@ int main(){
     catch(int d){
         cout<<"dividing by 0\n";
     }
-    catch(float d){
-        cout<<d;
-    }
+    
 }
