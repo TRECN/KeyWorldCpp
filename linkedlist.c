@@ -210,25 +210,31 @@ void main(){
             case 5:
                 befgivenVal();  
             break; 
-            
+
             case 6:
                 acend();  
             break; 
+
             case 7:
                 delbeg();  
             break; 
+
             case 8:
                 delend();  
-            break; 
+            break;
+
             case 9:
                 delpos();  
             break; 
+
             case 10:
                 reverse();  
             break; 
+
             case 11:
                 sorting();  
             break; 
+            
             case 0:
                 break;
             default:
