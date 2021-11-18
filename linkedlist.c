@@ -188,10 +188,7 @@ void main(){
         scanf("%d",&ch);               
         printf("---------\n\n");
         switch(ch){
-            case 1:
-                printf("creating a node...\n");
-                inend();
-            break;
+            
 
             case 2:
                 printf("traversing...\n");
