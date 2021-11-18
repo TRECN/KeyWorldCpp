@@ -135,7 +135,8 @@ void acend(){
         i=p;
         p=p->next;
     }
- 
+    i->next=q;
+    q->next=p;
     
 
 }
