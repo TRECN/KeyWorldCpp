@@ -231,8 +231,10 @@ void main(){
                 reverse();  
             break; 
 
+            case 11:
+                sorting();  
+            break; 
             
-
             case 0:
                 break;
             default:
