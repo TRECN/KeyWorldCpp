@@ -235,7 +235,10 @@ void main(){
                 sorting();  
             break; 
             
-            
+            case 0:
+                break;
+            default:
+                printf("wrong choice!!\n");
         }
     }
 }
