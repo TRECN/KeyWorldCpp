@@ -141,7 +141,12 @@ void acend(){
 
 }
 
-
+void delbeg(){
+    struct node *p;
+    p=start;
+    start=p->next;
+    free(p);
+}
 
 void delend(){
     struct node *p,*i;
