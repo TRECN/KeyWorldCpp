@@ -202,10 +202,11 @@ void main(){
                 printf("creating a node...\n");
                 inbeg();   
             break; 
-            
+
             case 4:
                 givenVal();  
             break; 
+            
             case 5:
                 befgivenVal();  
             break; 
