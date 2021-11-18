@@ -206,10 +206,11 @@ void main(){
             case 4:
                 givenVal();  
             break; 
-            
+
             case 5:
                 befgivenVal();  
             break; 
+            
             case 6:
                 acend();  
             break; 
