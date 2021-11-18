@@ -197,6 +197,7 @@ void main(){
                 printf("traversing...\n");
                 traverse();
             break; 
+            
             case 3:
                 printf("creating a node...\n");
                 inbeg();   
