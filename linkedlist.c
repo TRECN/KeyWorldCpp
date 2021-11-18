@@ -178,7 +178,8 @@ void delpos(){
 
 void main(){
 
-    
+    create();
+    int ch=1;
 
 
     while(ch>0){
