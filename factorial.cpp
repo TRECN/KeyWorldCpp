@@ -7,6 +7,7 @@ int main(){
         for(int j=1;j<=i;j++)
             f=f*j;
 
-        
+        cout<<"Factorial of "<<i<<" = "<<f<<endl;
+        f=1;
     }
 }
