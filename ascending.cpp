@@ -15,7 +15,7 @@ int main(){
             
             if(a[j] < a[i])
             {
-                temp = a[i];
+                int temp = a[i];
                 a[i] = a[j];
                 a[j] = temp;
             }
