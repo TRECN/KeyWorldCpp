@@ -21,7 +21,6 @@ int main(){
             }
         }
     }
-    //Printing the sorted array in ascending order
     cout<<"Elements of array in sorted ascending order:"<<endl;
     for(int i=0; i<n; i++)
     {
