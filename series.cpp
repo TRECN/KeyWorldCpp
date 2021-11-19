@@ -9,5 +9,5 @@ int main(){
             sum=sum+(1/i);
     }
     cout<<"sum: "<<sum;
-
+return 0;
 }
