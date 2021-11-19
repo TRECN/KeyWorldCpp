@@ -8,4 +8,6 @@ int main(){
         else
             sum=sum+(1/i);
     }
+    cout<<"sum: "<<sum;
+    
 }
