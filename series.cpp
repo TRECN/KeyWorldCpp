@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 int main(){
-    float sum;
+    float sum=0;
     for(int i=1;i<=100;i++){
         if(i%2==0)
             sum=sum-(1/i);
@@ -9,5 +9,5 @@ int main(){
             sum=sum+(1/i);
     }
     cout<<"sum: "<<sum;
-    
+
 }
