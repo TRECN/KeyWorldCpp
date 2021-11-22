@@ -1,7 +1,15 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-
+class a{
+    public:
+    a(){
+        cout<<"constructor of a "<<endl;
+    }
+    ~a(){
+        cout<<"distructor of a "<<endl;
+    }
+};
 class b:public a{
     public:
     b(){
