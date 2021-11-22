@@ -20,5 +20,6 @@ int  main()
              break;
          }
       }
-      
+      printf("the hcf of these two number is %d\n",i);
+         return 0;
 }
