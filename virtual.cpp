@@ -26,7 +26,3 @@ class D:public B,public C{
 };
 
 
-int main(){
-    D obj;
-    obj.a=10;
-}
