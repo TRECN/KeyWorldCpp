@@ -11,7 +11,15 @@ class a{
 
         
 };
-
+class b:private a{
+    private:
+        int w=y+z;
+    
+    public:
+    b(){
+        cout<<w;
+    }
+};
 
             
 int main(){
