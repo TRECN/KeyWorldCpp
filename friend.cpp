@@ -13,7 +13,10 @@ class A
   friend int sum(A s);
 };
 
-
+int sum(A s)
+{
+  return int(s.a+s.b);
+}
 int main()
 {
   A c;
