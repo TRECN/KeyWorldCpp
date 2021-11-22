@@ -4,8 +4,6 @@ int  main()
 {
 	int i,num1,num2,hcf,mn;
 	
-	printf("enter the two nunbers\n");
-	scanf("%d%d",&num1,&num2);
 	
 	 if(num2>num1)
       {
