@@ -8,17 +8,22 @@ int main(){
         cin>>a[i];
     }
 
-    for(int i=1;i<n-1;i++){
+    for(int i=0;i<n-1;i++){
+        int min=i;
         for(int j=i+1;j<n;j++){
-            if(a[j]<a[i]){
-                int t=a[j];
-                a[j]=a[i];
-                a[i]=t;
+            if(a[j]<a[min]){
+                min=j;
             }
+            
         }
+        int t=a[i];
+            a[i]=a[min];
+            a[min]=t;
+        for(int k=0;k<n;k++){
+                cout<<a[k]<<" ";
+            }
+            cout<<endl;
     }
-    for(int i=0; i<n;i++){
-        cout<<a[i]<<" ";
-    }
+        
     return 0;
 }
