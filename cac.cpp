@@ -6,13 +6,13 @@ using namespace std;
     {
         if(n<=1)
  	        return 1;
- 	    else 
- 	        return n*fact(n-1);
+ 	    else
+        return n*fact(n-1);
  	}
      
 int main(){
  	int n,f;
- 	cout<<" Enter the number " ;
+ 	cout<<"Enter the number " ;
  	cin>>n;
  	f=fact(n);
  	cout<<f;
