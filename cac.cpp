@@ -11,5 +11,10 @@ using namespace std;
  	}
      
 int main(){
- 	return 0;
+ 	int n,f;
+ 	cout<<"Enter the number " ;
+ 	cin>>n;
+ 	f=fact(n);
+ 	cout<<f;
+    return 0;
  }
