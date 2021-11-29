@@ -7,7 +7,8 @@ int factorial(int n){
         return 1;
     }
 
-    
+    //int prevFactorial=factorial(n-1);
+    return n*factorial(n-1);
 }
 
 int main(){
