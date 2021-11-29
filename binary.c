@@ -1,12 +1,7 @@
 #include<stdio.h>
 #include<stdbool.h>
 int main(){
-    int n;
-    bool c=false;
-    printf("enter the length of array: ");
-    scanf("%d",&n);
-    int begin=0,end=n-1,el,mid,i;
-    
+
     int a[n];
     printf("enter the elements: \n");
     for(i=0;i<n;i++)
