@@ -8,7 +8,11 @@ int main(){
     int begin=0,end=n-1,el,mid,i;
     
     int a[n];
-  
+    printf("enter the elements: \n");
+    for(i=0;i<n;i++)
+        scanf("%d",&a[i]);
+    printf("enter the search element: \n");
+    scanf("%d",&el);
     while(begin<=end){
         mid = begin + (end-begin)/2;
         if (a[mid] == el){
