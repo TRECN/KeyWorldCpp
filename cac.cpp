@@ -16,4 +16,4 @@ int main(){
  	f=fact(n);
  	cout<<f;
     return 0;
- }
+}
