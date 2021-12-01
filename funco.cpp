@@ -7,7 +7,7 @@ int sum(int a){
     return a+a;
 }
 int main(){
-    cout<<sum(2,5)<<endl;
+    cout<<sum(25)<<endl;
     cout<<sum(3,10);
     return 0;
 }
