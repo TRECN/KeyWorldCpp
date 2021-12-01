@@ -10,7 +10,9 @@ int main(){
      for(int i=0;i<n;i++){
          int c=a[i];
          int j=i-1;
-        
+         while(a[j]>c&&j>0){
+             a[i]=a[j];
+             j--;
          }
          a[j+1]=c;
      }
