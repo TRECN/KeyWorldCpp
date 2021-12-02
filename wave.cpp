@@ -6,7 +6,12 @@ int main(){
     cin>>n;
         int a[n];
         int l=1;
-        
+        for(int k=0;k<n;k++){
+            cin>>a[k];
+        }
+        if(n%2!=0){
+            l=2;
+        }
         for(int i=0;i<n-l;i+=2){
             a[i]=a[i]+a[i+1];
             a[i+1]=a[i]-a[i+1];
