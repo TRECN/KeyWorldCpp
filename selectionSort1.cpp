@@ -28,9 +28,7 @@ int main() {
    cin >> n;
    int arr[n];           //create an array with given number of elements
    cout << "Enter elements:" << endl;
-   for(int i = 0; i<n; i++) {
-      cin >> arr[i];
-   }
+   
    cout << "Array before Sorting: ";
    display(arr, n);
    selectionSort(arr, n);
