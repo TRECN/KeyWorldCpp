@@ -6,9 +6,7 @@ int main(){
     cin>>n;
         int a[n];
         int l=1;
-        for(int k=0;k<n;k++){
-            cin>>a[k];
-        }
+        
         if(n%2!=0){
             l=2;
         }
