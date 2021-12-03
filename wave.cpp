@@ -17,6 +17,8 @@ int main(){
             a[i+1]=a[i]-a[i+1];
             a[i]=a[i]-a[i+1]; 
         }
-        
+        for(int k=0;k<n;k++){
+            cout<<a[k]<<" ";
+        }
     return 0;
 }
