@@ -25,11 +25,7 @@ int main(){
                     cout<<"enter data: "<<endl;
                     int data;
                     cin>>data;
-                    if(front==-1){
-                        front+=1;
-                        rear+=1;
-                        q[rear]=data;
-                    }
+                    
                     else{
                         rear+=1;
                         q[rear] = data;
