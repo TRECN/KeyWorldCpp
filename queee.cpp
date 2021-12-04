@@ -30,7 +30,11 @@ int main(){
                         rear+=1;
                         q[rear]=data;
                     }
-                    
+                    else{
+                        rear+=1;
+                        q[rear] = data;
+                    }   
+                }
                 
             break;
             //dequeue
