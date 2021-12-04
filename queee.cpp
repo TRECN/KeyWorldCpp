@@ -2,7 +2,13 @@
 using namespace std;
 
 int main(){
-    
+    int n;
+    cout<<"enter the size of queue: "<<endl;
+    cin>>n;
+    int q[n];
+    int front=-1;
+    int rear=-1;
+    int ch;
     do{
         if(front==-1&&rear==n-1){
             rear=-1;
