@@ -53,7 +53,18 @@ int main(){
             break;
 
             //show queue
-            
+            case 3:
+                if(front!=-1){
+                    cout<<"queue: ";
+                    for(int i=front;i<=rear;i++){
+                        cout<<q[i]<<" ";
+                    }
+                }
+                else{
+                    cout<<"queue is empty";
+                }
+                cout<<endl;
+            break;
 
         //wrong choice
             default:
