@@ -13,9 +13,7 @@ void merge(int arr[],int l,int mid, int r){
     for(int i=0;i<n2;i++){
         b[i]=arr[mid+1+i];
     }
-    int i=0;
-    int j=0;
-    int k=l;
+
     while(i<n1&&j<n2){
         if(a[i]<b[j]){
             arr[k]=a[i];
