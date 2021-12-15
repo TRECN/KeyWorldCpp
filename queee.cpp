@@ -67,9 +67,6 @@ int main(){
             break;
 
         //wrong choice
-            default:
-                cout<<"wrong choice!! enter choice again: "<<endl;
-            break;
-        }
+       
     }while(ch!=4);
 }
