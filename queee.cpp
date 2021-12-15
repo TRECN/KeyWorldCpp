@@ -20,7 +20,7 @@ int main(){
             //enqueue
             case 1:
                 if(rear==n-1)
-                    cout<<"overflow"<<endl;
+                    
                 else{
                     cout<<"enter data: "<<endl;
                     int data;
