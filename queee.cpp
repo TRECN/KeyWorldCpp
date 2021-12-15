@@ -13,10 +13,7 @@ int main(){
         if(front==-1&&rear==n-1){
             rear=-1;
         }
-        cout<<"enter choice: 1. enqueue, 2. dequeue, 3. show, 4 to quit"<<endl;
-        cin>>ch;
-        switch (ch)
-        {
+        
             //enqueue
             case 1:
                 if(rear==n-1)
