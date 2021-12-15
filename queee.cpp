@@ -41,15 +41,7 @@ int main(){
             case 2:
                 if(front==-1)
                     cout<<"underflow!!"<<endl;
-                else{
-                    if(front==rear){
-                        q[front]=NULL;
-                        front=-1;
-                    }else{
-                        q[front]=NULL;
-                        front=front+1;
-                    }
-                }
+                
             break;
 
             //show queue
