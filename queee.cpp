@@ -18,7 +18,22 @@ int main(){
         switch (ch)
         {
             //enqueue
-               }   
+            case 1:
+                if(rear==n-1)
+                    cout<<"overflow"<<endl;
+                else{
+                    cout<<"enter data: "<<endl;
+                    int data;
+                    cin>>data;
+                    if(front==-1){
+                        front+=1;
+                        rear+=1;
+                        q[rear]=data;
+                    }
+                    else{
+                        rear+=1;
+                        q[rear] = data;
+                    }   
                 }
                 
             break;
