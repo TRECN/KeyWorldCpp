@@ -66,7 +66,10 @@ int main(){
                 cout<<endl;
             break;
 
-       
+        //wrong choice
+            default:
+                cout<<"wrong choice!! enter choice again: "<<endl;
+            break;
         }
     }while(ch!=4);
 }
