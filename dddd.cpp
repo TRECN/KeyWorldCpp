@@ -1,11 +1,24 @@
-#include<bits/stdc++.h>
-using namespace std;
-int main(){
-    int x=10;
-    int y=0;
-    while(x>y){
-        cout<<x<<" "<<y;
-        x=x-1;
-        y=y+1;
+#include <stdio.h>
+int main()
+{
+    int a[3][3], i, j;
+    printf("Element of array\n");
+    for (int i = 0; i < 3; i++)
+    {
+        for (int j = 0; j < 3; j++)
+        {
+            scanf("%d", &a[i][j]);
+        }
     }
+
+    printf("Element of array are\n");
+    for (int i = 0; i < 3; i++)
+    {
+        for (int j = 0; j < 3; j++)
+        {
+            printf("%d\t", a[i][j]);
+        }
+        printf("\n");
+    }
+    return 0;
 }
