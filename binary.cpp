@@ -25,7 +25,8 @@ int main(){
             end = mid - 1;
     }
     if(c==true){
-        cout<<mid;
+
+        cout<<"found at index "<<mid;
     }
     else
         cout<<"not found";
