@@ -1,34 +1,4 @@
-#include<bits/stdc++.h>
-using namespace std;
-void push(int *arr,int *top,int n){
-    int data;
-    if(*top==n-1)
-        cout<<"overflow!!"<<endl;
-    else{
-        cout<<"enter element: "<<endl;
-        cin>>data;
-        *top=*top+1;
-        arr[*top]=data;
-    }
-}
 
-void pop(int *arr,int *top,int n){
-    int data;
-    if(*top<0)
-        cout<<"underflow!!"<<endl;
-    else{
-        arr[*top]=NULL;
-        *top=*top-1;
-    }
-}
-
-
-void show(int *arr,int *top,int n){
-    for(int i=0;i<=*top;i++){
-        cout<<arr[i]<<" ";
-    }
-    cout<<endl;
-}
 
 int main(){
     int n;
