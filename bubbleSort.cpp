@@ -18,11 +18,7 @@ int main(){
             
             
         }
-        for(int k=0;k<n;k++){
-                cout<<a[k]<<" ";
-            }
-            cout<<endl;
-    }
+   
 
   
     return 0;
