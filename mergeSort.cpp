@@ -7,12 +7,7 @@ void merge(int arr[],int l,int mid, int r){
 
     int a[n1];
     int b[n2];
-    for(int i=0;i<n1;i++){
-        a[i]=arr[l+i];
-    }
-    for(int i=0;i<n2;i++){
-        b[i]=arr[mid+1+i];
-    }
+    
     int i=0;
     int j=0;
     int k=l;
