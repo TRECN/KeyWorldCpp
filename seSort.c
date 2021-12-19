@@ -19,14 +19,9 @@ void selectionSort(int arr[], int n)
           if (arr[j] < arr[min_idx])
             min_idx = j;
         swap(&arr[min_idx], &arr[i]);
-    } }
-void printArray(int arr[], int size)
-{
-    int i;
-    for (i=0; i < size; i++)
-        printf("%d ", arr[i]);
-    printf("\n");
+    } 
 }
+
 int main()
 {
     int arr[] = {6, 205, 22, 2, 101};
