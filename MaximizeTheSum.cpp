@@ -11,7 +11,12 @@ int main(){
         for(int i=0;i<n;i++){
             cin>>vec[i];
         }
-        
+        sort(vec.begin(),vec.end());
+        int h=n;
+        while(k--){
+            s=vec[n--];
+        }
+        cout<<s<<endl;
 
     }
     return 0;
