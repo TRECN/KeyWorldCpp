@@ -11,3 +11,8 @@ int numSetBits( int A){
     }
     return count;
 }
+
+int main(){
+    cout<<numSetBits(8);
+    return 0;
+}
