@@ -1,4 +1,9 @@
   #include <stdio.h>
+  void swap(int *a, int *b) {
+    int temp = *a;
+    *a = *b;
+    *b = temp;
+  }
   
   void heapify(int arr[], int n, int i) {
     int largest = i;
