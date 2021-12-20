@@ -39,12 +39,3 @@
     printf("\n");
   }
 
-  int main() {
-    int arr[] = {1, 12, 9, 5, 6, 10};
-    int n = sizeof(arr) / sizeof(arr[0]);
-  
-    heapSort(arr, n);
-  
-    printf("Sorted array is \n");
-    printArray(arr, n);
-  }
