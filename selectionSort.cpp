@@ -20,11 +20,12 @@ int main(){
             a[i]=a[min];
             a[min]=t;
         
-    }
-    for(int k=0;k<n;k++){
+        for(int k=0;k<n;k++){
         cout<<a[k]<<" ";
     }
     cout<<endl;
+    }
+    
         
     return 0;
 }
