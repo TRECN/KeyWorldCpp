@@ -1,5 +1,9 @@
 #include <stdio.h>
-
+int Queue[50], n = 50;
+int rear = -1;
+int front = -1;
+void insertion()
+{
    int val;
 
    if (rear == n - 1)
