@@ -21,11 +21,7 @@ void insertion()
          rear = rear + 1;
          Queue[rear] = val;
       }
-      else
-      {
-          rear+=1;
-          Queue[rear]=val;
-      }
+      
    }
 }
 void deletion()
