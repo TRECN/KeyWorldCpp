@@ -6,10 +6,7 @@ void insertion()
 {
    int val;
 
-   if (rear == n - 1)
-   {
-      printf("Queue is Overflow\n");
-   }
+ 
    else
    {
        printf("Insert the element\n");
