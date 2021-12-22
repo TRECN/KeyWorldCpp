@@ -36,14 +36,7 @@ void deletion()
       
    }
    else
-   {    if(front==rear){
-            Queue[front]=NULL;
-            front-=1;
-        }else{
-            printf("Deletion from queue is : %d\n", Queue[front]);
-            Queue[front]=NULL;
-            front = front + 1;
-        }
+   {    
       
    }
 }
