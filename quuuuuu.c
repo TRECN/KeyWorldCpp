@@ -2,32 +2,7 @@
 int Queue[50], n = 50;
 int rear = -1;
 int front = -1;
-void insertion()
-{
-   int val;
 
-   if (rear == n - 1)
-   {
-      printf("Queue is Overflow\n");
-   }
-   else
-   {
-       printf("Insert the element\n");
-        scanf("%d", &val);
-      if (front == -1)
-      {
-         
-         front+=1;
-         rear = rear + 1;
-         Queue[rear] = val;
-      }
-      else
-      {
-          rear+=1;
-          Queue[rear]=val;
-      }
-   }
-}
 void deletion()
 {
    if (front == -1)
