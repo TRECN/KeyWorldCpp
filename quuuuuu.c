@@ -26,7 +26,27 @@ void insertion()
           rear+=1;
           Queue[rear]=val;
       }
-
+   }
+}
+void deletion()
+{
+   if (front == -1)
+   {
+      printf("Queue Underflow \n");
+      
+   }
+   else
+   {    if(front==rear){
+            Queue[front]=NULL;
+            front-=1;
+        }else{
+            printf("Deletion from queue is : %d\n", Queue[front]);
+            Queue[front]=NULL;
+            front = front + 1;
+        }
+      
+   }
+}
 void display()
 {
    int i;
