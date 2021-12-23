@@ -25,7 +25,15 @@ void main ()
             break;
             case 2:
             del();
-            bintf("\nEnter valid choice!!");
+            break;
+            case 3:
+            display();
+            break;
+            case 4:
+            exit(0);
+            break;
+            default:
+            printf("\nEnter valid choice!!");
         }
    }
 }
