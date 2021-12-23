@@ -88,12 +88,6 @@ void display()
     }
     else
     {   
-        printf("Elements of Queue:");
-        while(ptr != NULL)
-        {
-            printf(" %d",ptr -> data);
-            ptr = ptr -> next;
-        }
         printf("\n");
     }
 }
