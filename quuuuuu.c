@@ -12,7 +12,17 @@ void insertion()
    }
    else
    {
-   
+       printf("Insert the element\n");
+        scanf("%d", &val);
+      if (front == -1)
+      {
+         
+         front+=1;
+         rear = rear + 1;
+         Queue[rear] = val;
+      }
+      
+   }
 }
 
 void display()
