@@ -3,14 +3,7 @@
 struct node
 {
     int data;
-    struct node *next;
-};
-struct node *front;
-struct node *rear;
-void ins();
-void del();
-void display();
-void main ()
+
 {
     int choice;
     while(choice != 4){
