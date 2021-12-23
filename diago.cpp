@@ -32,7 +32,6 @@ int main(){
         }
     }
 
-
     cout<<"sum of ud elements : "<<ud<<endl;
     cout<<"sum of ld elements : "<<ld<<endl;
 }
