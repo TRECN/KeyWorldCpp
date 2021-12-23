@@ -25,19 +25,7 @@ void insertion()
    }
 }
 
-void display()
-{
-   int i;
-   if (front == -1)
-      printf("Queue is empty \n");
-   else
-   {
-      printf("Queue is : \n");
-      for (i = front; i <= rear; i++)
-         printf("%d\n ", Queue[i]);
-      
-   }
-}
+
 int main()
 {
    int choice;
