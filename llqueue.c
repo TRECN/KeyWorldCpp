@@ -10,7 +10,31 @@ struct node *rear;
 void ins();
 void del();
 void display();
-voi
+void main ()
+{
+    int choice;
+    while(choice != 4){
+        printf("\n1.Insert an element\n2.Delete an element\n3.Display the queue\n4.Exit\n");
+        printf("Enter your choice:");
+
+        scanf("%d",& choice);
+
+        switch(choice){   
+            case 1:
+            ins();
+            break;
+            case 2:
+            del();
+            break;
+            case 3:
+            display();
+            break;
+            case 4:
+            exit(0);
+            break;
+            default:
+            printf("\nEnter valid choice!!");
+        }
    }
 }
 
