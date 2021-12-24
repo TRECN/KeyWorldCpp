@@ -39,13 +39,7 @@ void main ()
 }
 
 void ins(){
-    struct node *ptr;
-    int item;
-    ptr = (struct node *) malloc (sizeof(struct node));
-    if(ptr == NULL){
-        printf("\nOVERFLOW\n");
-        return;
-    }
+    
     else{
         printf("Enter value:");
         scanf("%d",&item);
