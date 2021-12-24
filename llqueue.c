@@ -30,13 +30,7 @@ void main ()
             display();
             break;
             case 4:
-            exit(0);
-            break;
-            default:
-            printf("\nEnter valid choice!!");
-        }
-   }
-}
+  
 
 void ins(){
     struct node *ptr;
