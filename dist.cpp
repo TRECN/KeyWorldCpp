@@ -3,7 +3,11 @@ using namespace std;
 class S
 {
     public:
-     
+        static int a;
+        S (){
+            a++;
+            cout<<"constructor : "<<a<<endl;
+        }
 
         ~S(){
             a++;
