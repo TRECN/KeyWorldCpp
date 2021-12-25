@@ -28,14 +28,7 @@ void merge(int arr[],int l,int mid, int r){
         k++;
 
     }
-    while(i<n1){
-        arr[k]=a[i];
-            k++;i++;
-    }
-    while(j<n2){
-        arr[k]=b[j];
-        k++;j++;
-    }
+
 }
 
 void mergeSort(int arr[],int l,int r){
