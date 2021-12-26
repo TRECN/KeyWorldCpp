@@ -50,7 +50,19 @@ void ins(){
         printf("Enter value:");
         scanf("%d",&item);
         ptr -> data = item;
-        
+        if(front == NULL)
+        {
+            front = ptr;
+            rear = ptr;
+            front -> next = NULL;
+            rear -> next = NULL;
+        }
+        else
+        {
+            rear -> next = ptr;
+            rear = ptr;
+            rear->next = NULL;
+        }
     }
 }
 void del ()
