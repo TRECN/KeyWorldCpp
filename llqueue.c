@@ -57,13 +57,7 @@ void ins(){
             front -> next = NULL;
             rear -> next = NULL;
         }
-        else
-        {
-            rear -> next = ptr;
-            rear = ptr;
-            rear->next = NULL;
-        }
-    }
+        
 }
 void del ()
 {
