@@ -80,13 +80,7 @@ void del ()
 }
 void display()
 {
-    struct node *ptr;
-    ptr = front;
-    if(front == NULL)
-    {
-        printf("\nEmpty queue");
-    }
-    else
+    
     {   
         printf("Elements of Queue:");
         while(ptr != NULL)
