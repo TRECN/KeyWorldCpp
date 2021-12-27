@@ -9,12 +9,7 @@ class student{
         }
 };
 
-class detail{
-    protected:
-        void showdetail(){
-            cout<<"detail class inherited."<<endl;
-        }       
-};
+
 
 class display:private student,public detail{
     public:
