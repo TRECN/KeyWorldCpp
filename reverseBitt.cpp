@@ -9,7 +9,14 @@ uint32_t numSetBits(uint32_t A){
             mask=~(1);
             rev=rev&mask;
         }
-  
+        else{
+            mask=1;
+            rev=rev|mask;
+        }
+        rev=rev<<1;
+        A=A>>1;
+    }
+    return rev;
 }
 
 int main(){
