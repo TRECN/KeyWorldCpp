@@ -24,3 +24,7 @@ class display:private student,public detail{
         }
 };
 
+int main(){
+    display ob;
+    return 0;
+}
