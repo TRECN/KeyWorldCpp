@@ -18,8 +18,3 @@ uint32_t numSetBits(uint32_t A){
     }
     return rev;
 }
-
-int main(){
-    cout<<numSetBits(3);
-    return 0;
-}
