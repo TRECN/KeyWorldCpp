@@ -15,7 +15,13 @@ void bubbleSort(int arr[], int n)
            if (arr[j] > arr[j+1]) 
               swap(&arr[j], &arr[j+1]); 
 }
-
+void printArray(int arr[], int size) 
+{ 
+    int i; 
+    for (i=0; i < size; i++) 
+        printf("%d ", arr[i]); 
+    printf("\n"); 
+} 
 int main() 
 { 
     int arr[] = {64, 34, 205, 112, 2, 1, 9}; 
