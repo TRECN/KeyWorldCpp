@@ -9,7 +9,11 @@ class S
             cout<<"constructor : "<<a<<endl;
         }
 
- 
+        ~S(){
+            a++;
+            cout<<"distructor : "<<a<<endl;
+            
+        }
 };
 int S::a=0;
 int main(){
