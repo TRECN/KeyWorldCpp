@@ -30,5 +30,10 @@ void printArray(int arr[], int size)
 }
 int main()
 {
- 
+    int arr[] = {6, 205, 22, 2, 101};
+    int n = sizeof(arr)/sizeof(arr[0]);
+    selectionSort(arr, n);
+    printf("Sorted array: \n");
+    printArray(arr, n);
+    return 0;
 }
