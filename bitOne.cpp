@@ -10,3 +10,8 @@ int numSetBits(unsigned int A){
     }
     return count;
 }
+
+int main(){
+    cout<<numSetBits(5);
+    return 0;
+}
