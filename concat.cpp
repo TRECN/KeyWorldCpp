@@ -9,10 +9,7 @@ int main(){
     for(int i=0;i<n;i++){   
             cin>>a[i];
     }
-    cout<<"enter the elements of the array b: "<<endl;
-    for(int i=0;i<n1;i++){   
-            cin>>b[i];
-    }
+    
     n2=n+n1;
     int c[n2];
     i=0;j=0;k=0;
