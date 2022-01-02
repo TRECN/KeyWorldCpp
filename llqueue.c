@@ -46,7 +46,10 @@ void ins(){
         printf("\nOVERFLOW\n");
         return;
     }
-    ptr -> data = item;
+    else{
+        printf("Enter value:");
+        scanf("%d",&item);
+        ptr -> data = item;
         if(front == NULL)
         {
             front = ptr;
