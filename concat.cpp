@@ -13,7 +13,13 @@ int main(){
     for(int i=0;i<n1;i++){   
             cin>>b[i];
     }
- 
+    n2=n+n1;
+    int c[n2];
+    i=0;j=0;k=0;
+    while(i<n){
+        c[k]=a[i];
+        i++;k++;
+    }
     while(j<n1){
         c[k]=b[j];
         j++;k++;
