@@ -24,9 +24,5 @@ int main(){
         c[k]=b[j];
         j++;k++;
     }
-    cout<<"array after concatination: ";
-    for(int i=0;i<n2;i++){
-        cout<<c[i]<<endl;
-    }
-
+  
 }
