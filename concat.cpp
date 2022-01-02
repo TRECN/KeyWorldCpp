@@ -20,10 +20,7 @@ int main(){
         c[k]=a[i];
         i++;k++;
     }
-    while(j<n1){
-        c[k]=b[j];
-        j++;k++;
-    }
+    
     cout<<"array after concatination: ";
     for(int i=0;i<n2;i++){
         cout<<c[i]<<endl;
