@@ -6,12 +6,7 @@ class A{
         int a;
 };
 
-class C:public virtual A{
-    public:
-        void display(){
-            cout<<a;
-        }
-};
+
 
 class D:public B,public C{
     public:
