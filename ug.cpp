@@ -26,18 +26,7 @@ public:
 
 			cout << "Roots" << endl;
 			cout << "x = " << -c << endl;
-
-		}
-		else if (discriminant > 0) {
-
-			x1 = (-b + sqrt(discriminant)) / (2 * a);
-			x2 = (-b - sqrt(discriminant)) / (2 * a);
-			cout << "Roots are real and different" << endl;
-			cout << "x1 = " << x1 << endl;
-			cout << "x2 = " << x2 << endl;
-
-		}
-		else if (discriminant == 0) {
+se if (discriminant == 0) {
 
 			cout << "Roots are real and equal" << endl;
 			x1 = (-b + sqrt(discriminant)) / (2 * a);
