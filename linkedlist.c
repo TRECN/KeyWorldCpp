@@ -115,15 +115,6 @@ void befgivenVal(){
 }
 
 
-void traverse(){
-    struct node* p;
-    p=start;
-    while(p!=NULL){
-        printf("%d->",p->data);
-        p=p->next;
-    }
-    printf("NULL\n----------\n\n");
-}
 
 void acend(){
     struct node* p, *q,*i;
