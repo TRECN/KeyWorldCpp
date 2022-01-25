@@ -16,6 +16,13 @@ class detail{
         }       
 };
 
+class display:private student,public detail{
+    public:
+        display(){
+            showdetail();
+            show();
+        }
+};
 
 int main(){
     display ob;
