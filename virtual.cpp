@@ -13,6 +13,12 @@ class C:public virtual A{
         }
 };
 
+class D:public B,public C{
+    public:
+        B::display();
+        C::display();
+};
+
 
 int main(){
     D obj;
