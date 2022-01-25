@@ -97,21 +97,7 @@ void givenVal(){
 
 void befgivenVal(){
     struct node* p,*q;
-    int x;
-    
-    q=(struct node*)malloc(sizeof(struct node));
-    p=start;
-    printf("enter the data before which you want add a node: ");
-    scanf("%d",&x);
-    printf("enter the value: ");
-    scanf("%d",&q->data);
-    while(p->next->data!=x){
-        p=p->next;
-    }
-    q->next=p->next;
-    p->next=q;
-    printf("---------\n\n");
-    
+  
 }
 
 
