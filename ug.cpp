@@ -8,7 +8,13 @@ public:
 
 	Quadratic() {
 
-
+		cout << "ax^2 + bx + c = 0" << endl;
+		cout << "Enter a: ";
+		cin >> a;
+		cout << "Enter b: ";
+		cin >> b;
+		cout << "Enter c: ";
+		cin >> c;
 
 	}
 
