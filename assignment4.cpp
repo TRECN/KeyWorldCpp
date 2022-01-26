@@ -7,7 +7,17 @@ void insertion(char *q,int n,int *front,int *rear,char data){
     }
     else{
         if(*front==-1){
-  
+            *front=0;
+            *rear=0;
+        }
+        else if(*rear==n-1)
+            *rear=0;
+        else
+            *rear=*rear+1;
+
+        q[*rear]=data;
+
+    }
 }
 
 
