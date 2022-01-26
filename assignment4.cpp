@@ -43,21 +43,6 @@ void deletion(char *q,int n,int *front,int *rear){
 
 }
 
-void show(char *q,int n,int *front, int *rear){
-    if(*front!=-1){
-        cout<<"queue: ";
-        for(int i=0;i<=n;i++){
-            cout<<q[i]<<" ";
-        }
-    }
-    else{
-        cout<<"queue is empty";
-    }
-
-    cout<<endl<<"front: "<<*front<<endl<<"rear: "<<*rear<<endl;
-    cout<<endl;
-
-}
 
 int main(){
     char q[6];
