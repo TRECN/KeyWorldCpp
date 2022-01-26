@@ -22,7 +22,12 @@ public:
 
 		float discriminant = b * b - 4 * a * c, real, imaginary, x1, x2;
 
+		if (a == 0) {
 
+			cout << "Roots" << endl;
+			cout << "x = " << -c << endl;
+
+		}
 		else if (discriminant > 0) {
 
 			x1 = (-b + sqrt(discriminant)) / (2 * a);
