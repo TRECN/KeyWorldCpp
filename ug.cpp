@@ -16,11 +16,6 @@ public:
 		cout << "Enter c: ";
 		cin >> c;
 
-	}
-
-	void Roots() {
-
-		float discriminant = b * b - 4 * a * c, real, imaginary, x1, x2;
 
 		if (a == 0) {
 
