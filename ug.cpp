@@ -44,15 +44,7 @@ public:
 			cout << "x =" << x1 << endl;
 
 		}
-		else {
 
-			real = -b / (2 * a);
-			imaginary = sqrt(-discriminant) / (2 * a);
-			cout << "Roots are complex and different." << endl;
-			cout << "x1 = " << real << "+" << "i" << imaginary << endl;
-			cout << "x2 = " << real << "-" << "i" << imaginary << endl;
-
-		}
 
 	}
 
