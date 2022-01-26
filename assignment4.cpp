@@ -64,14 +64,6 @@ int main(){
     q[2]='A';
     q[3]='C';
     q[4]='D';
-    int front=2;
-    int rear=4;
-    insertion(q,6,&front,&rear,'F');
-    show(q,6,&front,&rear);
-    
-    deletion(q,6,&front,&rear);
-    deletion(q,6,&front,&rear);
-    show(q,6,&front,&rear);
 
     insertion(q,6,&front,&rear,'K');
     insertion(q,6,&front,&rear,'L');
