@@ -1,10 +1,3 @@
-#include<bits/stdc++.h>
-using namespace std;
-
-class Quadratic {
-
-	float a, b, c;
-public:
 
 	Quadratic() {
 
