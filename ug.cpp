@@ -39,6 +39,10 @@ public:
 		}
 		else if (discriminant == 0) {
 
+			cout << "Roots are real and equal" << endl;
+			x1 = (-b + sqrt(discriminant)) / (2 * a);
+			cout << "x =" << x1 << endl;
+
 		}
 		else {
 
