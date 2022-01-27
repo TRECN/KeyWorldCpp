@@ -23,23 +23,7 @@ void insertion(char *q,int n,int *front,int *rear,char data){
 
 
 void deletion(char *q,int n,int *front,int *rear){
-    if(*front==-1)
-        cout<<"queue is underflow!!";
-    else{
-        if(*front==*rear){
-            q[*front]=NULL;
-            *front=-1;
-            *rear=-1;
-        }
-        else if(*front==n-1){
-            q[*front]=NULL;
-            *front=0;
-        }
-        else{
-            q[*front]=NULL;
-            *front=*front+1;
-        }
-    }
+
 
 }
 
