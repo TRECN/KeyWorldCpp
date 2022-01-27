@@ -85,11 +85,6 @@ int main(){
     insertion(q,6,&front,&rear,'S');
     show(q,6,&front,&rear);
 
-    deletion(q,6,&front,&rear);
-    show(q,6,&front,&rear);
-
-    insertion(q,6,&front,&rear,'R');
-    show(q,6,&front,&rear);
 
     deletion(q,6,&front,&rear);
     show(q,6,&front,&rear);
