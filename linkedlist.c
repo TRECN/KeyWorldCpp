@@ -18,6 +18,38 @@ void create(){
     printf("---------\n\n");
 }
 
+void reverse(){
+    struct node* a=start;
+    struct node* b=NULL;
+    struct node* c;
+    while(a!=NULL){
+        c=a->next;
+        a->next=b;
+        b=a;
+        a=c;
+    }
+    start=b;
+}
+
+void sorting(){
+    struct node* p=start;
+    struct node* q;
+    int t;
+    while(p->next!=NULL){
+        q=p->next;
+        while(q!=NULL){
+            if(p->data>q->data){
+                t=p->data;
+                p->data=q->data;
+                q->data=t;
+            }
+            q=q->next;
+        }
+        p=p->next;
+    }    
+
+}
+
 void inend(){
     struct node *p,*q;
     q=(struct node*)malloc(sizeof(struct node));
