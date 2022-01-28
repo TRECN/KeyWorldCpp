@@ -203,21 +203,6 @@ void main(){
                 inbeg();   
             break; 
 
-            case 4:
-                givenVal();  
-            break; 
-
-            case 5:
-                befgivenVal();  
-            break; 
-
-            case 6:
-                acend();  
-            break; 
-
-            case 7:
-                delbeg();  
-            break; 
 
             case 8:
                 delend();  
