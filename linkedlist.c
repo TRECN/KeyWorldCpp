@@ -224,7 +224,15 @@ void main(){
             break;
 
             case 9:
-    ng();  
+                delpos();  
+            break; 
+
+            case 10:
+                reverse();  
+            break; 
+
+            case 11:
+                sorting();  
             break; 
             
             case 0:
