@@ -23,13 +23,6 @@ void pop(int *arr,int *top,int n){
 }
 
 
-void show(int *arr,int *top,int n){
-    for(int i=0;i<=*top;i++){
-        cout<<arr[i]<<" ";
-    }
-    cout<<endl;
-}
-
 int main(){
     int n;
     cout<<"enter the size of stack: "<<endl;
