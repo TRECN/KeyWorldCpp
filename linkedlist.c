@@ -148,7 +148,33 @@ void delbeg(){
     free(p);
 }
 
+void delend(){
+    struct node *p,*i;
+    p=start;
+    while(p->next->next!=NULL){
+        p=p->next;
+    }
+    i=p->next;
+    p->next=NULL;
+    free(i);
+    
+}
 
+void delpos(){
+    struct node* p,*q;
+    int x;
+    p=start;
+    printf("enter the data whose node you want to delete:");
+    scanf("%d",&x);
+    while(p->data!=x){
+        q=p;
+        p=p->next;
+    }
+    
+    q->next=p->next;
+    free(p);
+
+}
 
 void main(){
 
