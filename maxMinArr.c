@@ -10,7 +10,14 @@ int main()
         scanf("%d", &arr[i]);
     }
     max = arr[0];
- 
+    for (int i = 0; i < size; i++)
+    {
+        if (max<arr[i])
+        {
+            max = arr[i];
+            c = i+1;
+        }
+    }
     min = arr[0];
     for (int i = 0; i < size; i++)
     {
