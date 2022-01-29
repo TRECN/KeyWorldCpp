@@ -11,6 +11,19 @@ class A{
             b=b1;
         }
 
+        friend A operator+= (A j,A i){
+            A k;
+            k.a=j.a*i.a;
+            k.b=j.b*i.b;
+            return (k);
+        }
+        virtual void show(A a){
+            
+        }
+        void show(){
+            cout<<a<<"\t"<<b<<"\n";
+        }
+};
 class B : public A{
     public:
         void show(A a){
