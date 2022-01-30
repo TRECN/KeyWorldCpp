@@ -1,13 +1,4 @@
 
-#include <stdio.h>
-#include <stdlib.h>
-#include<conio.h>
-void swap(int *xp, int *yp)
-{
-    int temp = *xp;
-    *xp = *yp;
-    *yp = temp;
-}
 
 void selectionSort(int arr[], int n)
 {
