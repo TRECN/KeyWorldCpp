@@ -27,17 +27,7 @@ void display()
     }  
 } 
 
-void front(int item)  
-    {  
-        struct node *ptr = (struct node *)malloc(sizeof(struct node *));  
-        if(ptr == NULL)  
-        {  
-            printf("\nOVERFLOW !!!\n");  
-        }  
-        else  
-        {  
-            ptr->data = item;  
-            ptr->next = head;  
+           ptr->next = head;  
             head = ptr;  
             printf("\nGiven node is inserted\n");  
         }            
