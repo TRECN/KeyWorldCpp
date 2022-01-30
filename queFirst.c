@@ -2,11 +2,7 @@
 #include<conio.h>
 #include<stdlib.h>  
 void front(int);  
-struct node  
-{  
-    int data;  
-    struct node *next;  
-};  
+ 
 struct node *head;  
 void display()  
 {  
