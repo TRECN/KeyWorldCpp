@@ -42,11 +42,3 @@ void front(int item)
             printf("\nGiven node is inserted\n");  
         }            
     } 
-void main ()  
-{  
-    int item;  
-        printf("\nEnter the item which you want to insert?\n");  
-        scanf("%d",&item);  
-        front(item); 
-        display();  
-} 
