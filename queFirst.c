@@ -1,7 +1,3 @@
-#include <stdio.h>
-#include<conio.h>
-#include<stdlib.h>  
-void front(int);  
 
 struct node *head;  
 void display()  
