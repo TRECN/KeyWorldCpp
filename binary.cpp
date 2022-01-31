@@ -14,7 +14,11 @@ int main(){
     cout<<"enter the search element: "<<endl;
     cin>>el;
     while(begin<=end){
- 
+        mid = begin + (end-begin)/2;
+        if (a[mid] == el){
+            c=true;
+            break;
+        }  
         else if (a[mid] < el)
             begin = mid + 1;
         else
