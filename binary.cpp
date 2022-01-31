@@ -24,3 +24,11 @@ int main(){
         else
             end = mid - 1;
     }
+    if(c==true){
+
+        cout<<"found at index "<<mid;
+    }
+    else
+        cout<<"not found";
+    return 0;
+}
