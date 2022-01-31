@@ -5,10 +5,7 @@ int main()
     printf("Enter the array of size\n");
     scanf("%d", &size);
     printf("Enter the element of array\n");
-    for (int i = 0; i < size; i++)
-    {
-        scanf("%d", &arr[i]);
-    }
+
     for (int i = 0; i < size; i= i + 2)
     {
         temp = arr[i];
