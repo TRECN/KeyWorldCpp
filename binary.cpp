@@ -1,4 +1,8 @@
-
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int n;
+    bool c=false;
     cout<<"enter the length of array: ";
     cin>>n;
     int begin=0,end=n-1,el,mid,i;
