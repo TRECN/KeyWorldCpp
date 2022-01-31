@@ -13,15 +13,6 @@ void display()
         printf("Nothing to print");  
     }  
     else  
-    {  
-        printf("\nprinting values . . . . .\n");   
-        while (ptr!=NULL)  
-        {  
-            printf("\n%d",ptr->data);  
-            ptr = ptr -> next;  
-        }  
-    }  
-} 
 
 void front(int item)  
     {  
