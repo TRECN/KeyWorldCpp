@@ -10,16 +10,7 @@ int main()
 	cout<<"enter the elements of array1:"<<endl;
 	cin>>s;
 	cout<<"enter the elements of array2:"<<endl;
-	cin>>t;
 
-	i=lbA;
-	k=lbB;
-	for(i=0;i<s;i++)
-	while(i<=ubA){
-       c[k]=a[i];
-	   k=k+1;
-	   i=i+1;
-	}
 	  
 	
 	cout<<"after concatenation:"<<endl;
