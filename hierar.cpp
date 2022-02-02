@@ -5,7 +5,15 @@ class cars{
         string company="Car";
 };
 
+class car1:public cars{
+    public:
+        car1(int no){
+            cout<<no<< " ";
+            cout<<company<<endl;
+            
+        }
 
+};
 
 class car2:public cars{
     public:
