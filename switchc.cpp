@@ -11,13 +11,3 @@ int main(){
         case 2:
             cout<<"tuesday";
         break;
-        case 3:
-            cout<<"wednesday";
-        break;
-        case 4:
-            cout<<"thursday";
-        break;
-        
-    }
-    return 0;
-}
