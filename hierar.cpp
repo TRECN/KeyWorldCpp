@@ -15,7 +15,15 @@ class car1:public cars{
 
 };
 
+class car2:public cars{
+    public:
+        car2(int no){
+            cout<<no<<" ";
+            cout<<company<<endl;
+            
+        }
 
+};
 class car3:public cars{
     public:
         car3(int no){
