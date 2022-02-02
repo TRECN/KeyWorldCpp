@@ -24,15 +24,7 @@ class car2:public cars{
         }
 
 };
-class car3:public cars{
-    public:
-        car3(int no){
-            cout<<no<<" ";
-            cout<<company<<endl;
-            
-        }
 
-};
 
 
 int main(){
