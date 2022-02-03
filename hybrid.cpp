@@ -1,10 +1,3 @@
-#include<bits/stdc++.h>
-using namespace std;
-class Bank{
-    public:
-        string name;
-        int no;
-};
 
 class Account1:public Bank{
     public:
