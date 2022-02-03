@@ -26,4 +26,5 @@ int main(){
     {
         cout<<a[i]<<endl;
     }
+    
 }
