@@ -1,22 +1,21 @@
 #include<bits/stdc++.h>
 using namespace std;
-int kadanes(int a[]){
+int kadane(int a[],int n){
     int maxSum=INT_MIN;
-    int curSum=0;
-    for(int i=0;i<5;i++){
-        curSum = curSum+a[i];
-        if(curSum>maxSum){
-            maxSum=curSum;
+    int currSum=0;
+    for(int i=0;i<n;i++){
+        currSum=currSum+a[i];
+        if(currSum>maxSum)
+            maxSum=currSum;
+        if(currSum<0){
+            currSum=0;
         }
-        if(curSum<0){
-            curSum=0;
-        }
-        
     }
     return maxSum;
 }
 int main(){
-    int a[]={5,-4,-2,6,-1};
-    cout<<kadanes(a);
+    int a[]={-8,-2,6,-5,10,3,-3,10};
+    int n=sizeof(a)/sizeof(a[0]);
+    cout<<kadane(a,n);
     return 0;
 }
