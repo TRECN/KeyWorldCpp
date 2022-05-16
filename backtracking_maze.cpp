@@ -1,5 +1,5 @@
 #include<bits/stdc++.h>
-using namespace std;
+using namespace std;#define Row 9 #define col 10
 
 bool isSafe(int** arr, int x, int y,int n){
     if(x<n&&y<n&&arr[x][y]=1){
