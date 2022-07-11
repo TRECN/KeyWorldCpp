@@ -18,10 +18,10 @@ int fun1(int n){
 }
 //for multiplication
 int fun2(int n){
-    if(n<1){
+    if(n==0){
         return 1;
     }
-    return n*fun1(n-1);
+    return n*fun2(n-1);
 }
 
 // f(3)=3*2
@@ -30,10 +30,8 @@ int fun2(int n){
 // f(1)=1*1;
 
 int main(){
-    int n=3;
+    int n=4;
     int sum=0;
-    fun(sum,n);
-    cout<<endl<<fun1(n);
-    cout<<endl<<fun2(n);
+    cout<<fun2(3);
 
 }
