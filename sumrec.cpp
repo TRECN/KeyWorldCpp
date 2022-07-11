@@ -16,10 +16,19 @@ int fun1(int n){
     }
     return n+fun1(n-1);
 }
+//for multiplication
+int fun2(int n){
+    if(n<1){
+        return 1;
+    }
+    return n*fun1(n-1);
+}
 
 int main(){
     int n=3;
     int sum=0;
     fun(sum,n);
     cout<<endl<<fun1(n);
+    cout<<endl<<fun2(n);
+
 }
