@@ -1,5 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
+
+
 void fun(int *arr,int l,int r){
     if(l>=r)
         return;
