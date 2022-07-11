@@ -9,7 +9,7 @@ void fun(int i,int n){
     }
     fun(i+n,n-1);
 }
-
+// functional
 int fun1(int n){
     if(n<1){
         return 0;
