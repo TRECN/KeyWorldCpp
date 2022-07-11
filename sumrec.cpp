@@ -24,6 +24,11 @@ int fun2(int n){
     return n*fun1(n-1);
 }
 
+// f(3)=3*2
+
+// f(2)=2*1
+// f(1)=1*1;
+
 int main(){
     int n=3;
     int sum=0;
