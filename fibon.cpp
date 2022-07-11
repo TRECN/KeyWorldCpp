@@ -9,5 +9,7 @@ int fib(int n){
 }
 
 int main(){
+    cout<<fib(5);
     return 0;
+
 }
